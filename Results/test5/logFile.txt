@@ -1,0 +1,116 @@
+2021-10-22 10:28:19,373 INFO updateTextBox - Variables loaded!
+
+
+2021-10-22 10:28:19,373 INFO updateTextBox - Conditions:
+
+
+2021-10-22 10:28:19,406 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-10-22 10:28:19,406 INFO updateTextBox -  
+
+
+2021-10-22 10:28:19,406 INFO updateTextBox - Inital number of experiments: 10
+
+2021-10-22 10:28:19,406 INFO updateTextBox - Equilbration time: 600
+
+2021-10-22 10:28:19,424 INFO updateTextBox - HPLC directory: C:\Users\Thoma\Desktop\20211015_HC\20211015_HC
+
+2021-10-22 10:28:19,427 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-10-22 10:28:19,430 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-10-22 10:28:19,430 INFO updateTextBox - Responce functions: RsCrit2
+
+2021-10-22 10:28:19,430 INFO updateTextBox - 
+Experiments: 
+
+
+2021-10-22 10:28:19,525 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|
+|   1  |   7.22   |   5.47   |    95   | 49.95 |     1.18    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   2  |   5.28   |   40.82  |    95   | 34.42 |     0.8     |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   3  |   7.43   |   21.02  |    95   | 25.42 |     3.7     |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   4  |    2.2   |   27.91  |    95   | 48.84 |     2.64    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   5  |   3.46   |   54.69  |    95   | 39.27 |     4.71    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   6  |   3.72   |   72.96  |    95   | 54.08 |     0.17    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   7  |   6.12   |   63.2   |    95   | 57.18 |     3.3     |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   8  |   9.86   |   85.58  |    95   | 43.69 |     4.12    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|   9  |   8.51   |   93.84  |    95   | 29.51 |     2.19    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|  10  |   1.61   |   48.08  |    95   |  36.2 |     1.86    |    2   |     2    |    1   |    2    |  1 |   N/A   |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|
+
+2021-10-22 10:28:19,558 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-10-22 10:29:03,249 INFO updateTextBox - Variables loaded!
+
+
+2021-10-22 10:29:03,251 INFO updateTextBox - Conditions:
+
+
+2021-10-22 10:29:03,267 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-10-22 10:29:03,267 INFO updateTextBox -  
+
+
+2021-10-22 10:29:03,283 INFO updateTextBox - Inital number of experiments: 10
+
+2021-10-22 10:29:03,283 INFO updateTextBox - Equilbration time: 600
+
+2021-10-22 10:29:03,283 INFO updateTextBox - HPLC directory: C:\Users\Thoma\Desktop\20211015_HC\20211015_HC
+
+2021-10-22 10:29:03,298 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-10-22 10:29:03,298 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-10-22 10:29:03,298 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-10-22 10:29:03,298 INFO updateTextBox - 
+Experiments: 
+
+
+2021-10-22 10:29:03,429 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   2.23   |   50.56  |    95   | 47.98 |     4.81    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   2  |   1.79   |   48.73  |    95   | 42.99 |     1.18    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   3  |   9.57   |   25.3   |    95   | 59.13 |     2.97    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   4  |   4.96   |   39.37  |    95   |  51.1 |     4.02    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   5  |   6.92   |   81.85  |    95   | 40.33 |     1.87    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   6  |   2.96   |   71.4   |    95   | 30.63 |     0.95    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   7  |   5.88   |   13.75  |    95   | 26.64 |     3.83    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   8  |   8.43   |   22.48  |    95   | 37.59 |     0.33    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   9  |   7.43   |   90.62  |    95   | 55.91 |     2.09    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|  10  |   4.07   |   65.87  |    95   | 35.16 |     3.48    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-10-22 10:29:03,429 DEBUG applyVars - Variables successfuly initialised, saved and log file created.

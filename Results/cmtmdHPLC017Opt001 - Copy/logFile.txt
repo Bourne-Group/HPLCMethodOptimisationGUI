@@ -1,0 +1,910 @@
+2021-11-30 13:32:43,449 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 13:32:43,481 INFO updateTextBox - Conditions:
+
+
+2021-11-30 13:32:43,514 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 13:32:43,520 INFO updateTextBox -  
+
+
+2021-11-30 13:32:43,522 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 13:32:43,542 INFO updateTextBox - Equilbration time: 300
+
+2021-11-30 13:32:43,552 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 13:32:43,552 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 13:32:43,552 INFO updateTextBox - Optimisation algorithm selected: LVBayesian
+
+2021-11-30 13:32:43,562 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 13:32:43,562 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 13:32:43,617 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   9.49   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   2  |   1.88   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   3  |    6.9   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 13:32:43,647 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 13:34:18,722 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 13:34:18,726 INFO updateTextBox - Conditions:
+
+
+2021-11-30 13:34:18,748 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 13:34:18,758 INFO updateTextBox -  
+
+
+2021-11-30 13:34:18,758 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 13:34:18,758 INFO updateTextBox - Equilbration time: 300
+
+2021-11-30 13:34:18,768 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 13:34:18,768 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 13:34:18,778 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 13:34:18,781 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 13:34:18,785 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 13:34:18,812 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   9.33   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   3  |   6.23   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 13:34:18,822 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 13:39:19,714 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 13:39:19,722 INFO updateTextBox - Experiment 1 started at 13:39
+
+2021-11-30 13:39:19,726 INFO updateTextBox - Condtions: 
+
+2021-11-30 13:39:19,756 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   9.33   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 13:39:19,759 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 13:57:44,726 INFO updateTextBox - Method finished at 13:57
+
+2021-11-30 13:57:44,741 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 13:57:47,996 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 13:57:48,073 INFO updateTextBox - Responce vars generated. Experiment 1 finished. Results: 
+
+2021-11-30 13:57:48,340 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   9.33   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         -10        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 13:57:48,345 INFO updateTextBox - Experiment 2 started at 13:57
+
+2021-11-30 13:57:48,348 INFO updateTextBox - Condtions: 
+
+2021-11-30 13:57:48,369 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 13:57:48,374 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 14:26:41,273 ERROR StartInitButtonPushed - RunCondions failed to run an experiment.
+2021-11-30 14:27:03,218 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 14:27:23,984 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-11-30 14:27:32,472 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 14:27:32,480 INFO updateTextBox - Experiment 2 started at 14:27
+
+2021-11-30 14:27:32,485 INFO updateTextBox - Condtions: 
+
+2021-11-30 14:27:32,503 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 14:27:32,508 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 14:43:16,551 INFO updateTextBox - Method finished at 14:43
+
+2021-11-30 14:43:16,562 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 14:43:16,583 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-11-30 15:20:41,918 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 15:21:08,730 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-11-30 15:21:17,189 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 15:21:17,197 INFO updateTextBox - Experiment 2 started at 15:21
+
+2021-11-30 15:21:17,201 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:21:17,217 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:21:17,221 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:21:25,299 INFO updateTextBox - Method finished at 15:21
+
+2021-11-30 15:21:25,310 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 15:21:25,319 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-11-30 15:22:40,373 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 15:23:04,703 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-11-30 15:23:13,900 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 15:23:13,907 INFO updateTextBox - Experiment 2 started at 15:23
+
+2021-11-30 15:23:13,911 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:23:13,925 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:23:13,929 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:23:22,043 INFO updateTextBox - Method finished at 15:23
+
+2021-11-30 15:23:22,054 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 15:23:22,062 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-11-30 15:24:39,584 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 15:25:06,687 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 15:25:06,695 INFO updateTextBox - Experiment 2 started at 15:25
+
+2021-11-30 15:25:06,699 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:25:06,715 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:25:06,719 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:25:14,817 INFO updateTextBox - Method finished at 15:25
+
+2021-11-30 15:25:14,828 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 15:25:14,842 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-11-30 15:26:18,303 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 15:26:45,792 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 15:26:45,799 INFO updateTextBox - Experiment 2 started at 15:26
+
+2021-11-30 15:26:45,803 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:26:45,820 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:26:45,825 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:27:08,918 INFO updateTextBox - Method finished at 15:27
+
+2021-11-30 15:27:08,934 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 15:28:28,569 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 15:28:41,283 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 15:28:41,290 INFO updateTextBox - Experiment 2 started at 15:28
+
+2021-11-30 15:28:41,295 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:28:41,309 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:28:41,313 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:28:49,403 INFO updateTextBox - Method finished at 15:28
+
+2021-11-30 15:28:49,416 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 15:28:53,042 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 15:28:53,093 INFO updateTextBox - Responce vars generated. Experiment 2 finished. Results: 
+
+2021-11-30 15:28:53,329 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         -10        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:28:53,333 INFO updateTextBox - Experiment 3 started at 15:28
+
+2021-11-30 15:28:53,337 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:28:53,351 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   3  |   6.23   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:28:53,355 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:29:39,483 ERROR StartInitButtonPushed - RunCondions failed to run an experiment.
+2021-11-30 15:31:05,749 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 15:31:20,219 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 15:31:20,226 INFO updateTextBox - Experiment 2 started at 15:31
+
+2021-11-30 15:31:20,231 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:31:20,247 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:31:20,252 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 15:31:28,349 INFO updateTextBox - Method finished at 15:31
+
+2021-11-30 15:31:28,359 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 15:31:28,969 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 15:31:29,014 INFO updateTextBox - Responce vars generated. Experiment 2 finished. Results: 
+
+2021-11-30 15:31:29,192 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   1.75   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         -9         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:31:29,197 INFO updateTextBox - Experiment 3 started at 15:31
+
+2021-11-30 15:31:29,200 INFO updateTextBox - Condtions: 
+
+2021-11-30 15:31:29,216 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   3  |   6.23   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 15:31:29,221 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 16:04:53,319 ERROR StartInitButtonPushed - RunCondions failed to run an experiment.
+2021-11-30 16:07:30,321 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 16:08:43,994 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 16:08:43,998 INFO updateTextBox - Conditions:
+
+
+2021-11-30 16:08:44,025 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 16:08:44,030 INFO updateTextBox -  
+
+
+2021-11-30 16:08:44,034 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 16:08:44,038 INFO updateTextBox - Equilbration time: 600
+
+2021-11-30 16:08:44,042 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 16:08:44,046 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 16:08:44,050 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 16:08:44,054 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 16:08:44,058 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 16:08:44,086 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   5.71   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   2  |   1.27   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   3  |   9.45   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:08:44,099 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 16:08:49,943 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 16:08:49,947 INFO updateTextBox - Conditions:
+
+
+2021-11-30 16:08:49,975 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 16:08:49,979 INFO updateTextBox -  
+
+
+2021-11-30 16:08:49,983 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 16:08:49,987 INFO updateTextBox - Equilbration time: 600
+
+2021-11-30 16:08:49,990 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 16:08:49,994 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 16:08:49,998 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 16:08:50,001 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 16:08:50,005 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 16:08:50,032 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   2.53   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   2  |   5.53   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   3  |   8.99   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:08:50,045 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 16:08:52,807 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 16:08:52,813 INFO updateTextBox - Conditions:
+
+
+2021-11-30 16:08:52,840 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 16:08:52,845 INFO updateTextBox -  
+
+
+2021-11-30 16:08:52,848 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 16:08:52,852 INFO updateTextBox - Equilbration time: 600
+
+2021-11-30 16:08:52,856 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 16:08:52,860 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 16:08:52,864 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 16:08:52,868 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 16:08:52,871 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 16:08:52,899 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   1.54   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   2  |   6.95   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|   3  |   9.87   |     5    |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:08:52,913 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 16:09:20,612 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 16:09:20,617 INFO updateTextBox - Conditions:
+
+
+2021-11-30 16:09:20,646 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |   1   |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 16:09:20,650 INFO updateTextBox -  
+
+
+2021-11-30 16:09:20,654 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 16:09:20,658 INFO updateTextBox - Equilbration time: 600
+
+2021-11-30 16:09:20,662 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 16:09:20,668 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 16:09:20,673 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 16:09:20,679 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 16:09:20,686 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 16:09:20,718 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   5.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|   2  |   8.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|   3  |   1.55   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:09:20,737 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 16:10:07,847 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 16:10:07,855 INFO updateTextBox - Experiment 1 started at 16:10
+
+2021-11-30 16:10:07,860 INFO updateTextBox - Condtions: 
+
+2021-11-30 16:10:07,876 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   5.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:10:07,881 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 16:29:37,063 INFO updateTextBox - Method finished at 16:29
+
+2021-11-30 16:29:37,075 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 16:29:38,212 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 16:29:38,236 INFO updateTextBox - Responce vars generated. Experiment 1 finished. Results: 
+
+2021-11-30 16:29:38,360 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   5.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -14        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:29:38,364 INFO updateTextBox - Experiment 2 started at 16:29
+
+2021-11-30 16:29:38,368 INFO updateTextBox - Condtions: 
+
+2021-11-30 16:29:38,380 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   8.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:29:38,384 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 16:34:36,194 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 16:34:41,765 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-11-30 16:34:41,770 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 16:34:41,775 INFO updateTextBox - Conditions:
+
+
+2021-11-30 16:34:41,803 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  |   5   |     0    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime |   0   |     0    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |   1   |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2021-11-30 16:34:41,807 INFO updateTextBox -  
+
+
+2021-11-30 16:34:41,811 INFO updateTextBox - Inital number of experiments: 3
+
+2021-11-30 16:34:41,815 INFO updateTextBox - Equilbration time: 600
+
+2021-11-30 16:34:41,819 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 16:34:41,823 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 16:34:41,827 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 16:34:41,831 INFO updateTextBox - Responce functions: Maximisepeaknumber
+
+2021-11-30 16:34:41,834 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 16:34:41,862 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   1  |   5.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|   2  |   8.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|   3  |   1.55   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:38:10,969 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-30 16:38:31,349 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-11-30 16:38:36,409 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 16:38:36,417 INFO updateTextBox - Experiment 2 started at 16:38
+
+2021-11-30 16:38:36,421 INFO updateTextBox - Condtions: 
+
+2021-11-30 16:38:36,438 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   8.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:38:36,443 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 16:52:05,340 INFO updateTextBox - Method finished at 16:52
+
+2021-11-30 16:52:05,351 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 16:52:07,203 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 16:52:07,222 INFO updateTextBox - Responce vars generated. Experiment 2 finished. Results: 
+
+2021-11-30 16:52:07,419 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   2  |   8.47   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:52:07,423 INFO updateTextBox - Experiment 3 started at 16:52
+
+2021-11-30 16:52:07,427 INFO updateTextBox - Condtions: 
+
+2021-11-30 16:52:07,441 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   3  |   1.55   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 16:52:07,445 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 17:07:41,449 INFO updateTextBox - Method finished at 17:7
+
+2021-11-30 17:07:41,461 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 17:07:42,157 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 17:07:42,172 INFO updateTextBox - Responce vars generated. Experiment 3 finished. Results: 
+
+2021-11-30 17:07:42,397 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   3  |   1.55   |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -10        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 17:07:42,402 INFO updateTextBox - ***INIT CONDTIONS FINISHED AT 17:7***
+2021-11-30 17:07:42,414 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 17:07:42,419 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-11-30 17:28:46,277 INFO updateTextBox - Method finished at 17:28
+
+2021-11-30 17:28:46,291 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 17:28:47,626 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 17:28:47,647 INFO updateTextBox - Responce vars generated. Experiment 4 finished. Results:
+
+2021-11-30 17:28:47,661 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   4  |  6.9353  |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 17:52:53,920 INFO updateTextBox - Method finished at 17:52
+
+2021-11-30 17:52:53,933 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 17:52:55,688 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 17:52:55,704 INFO updateTextBox - Responce vars generated. Experiment 5 finished. Results:
+
+2021-11-30 17:52:55,716 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   5  |    10    |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-11-30 17:53:00,204 INFO updateTextBox - Atempting to shutdown HPLC by writing to excel
+2021-12-01 12:23:00,056 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-12-01 12:23:12,694 INFO updateTextBox - 
+HPLC started
+
+
+2021-12-01 12:23:12,701 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-12-01 12:44:58,739 INFO updateTextBox - Method finished at 12:44
+
+2021-12-01 12:44:58,766 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 12:45:00,124 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 12:45:00,141 INFO updateTextBox - Responce vars generated. Experiment 6 finished. Results:
+
+2021-12-01 12:45:00,154 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   6  |  6.0871  |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-12-01 13:08:30,700 INFO updateTextBox - Method finished at 13:8
+
+2021-12-01 13:08:30,709 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 13:08:32,406 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 13:08:32,422 INFO updateTextBox - Responce vars generated. Experiment 7 finished. Results:
+
+2021-12-01 13:08:32,435 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   7  |   9.336  |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-12-01 13:30:23,583 INFO updateTextBox - Method finished at 13:30
+
+2021-12-01 13:30:23,594 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 13:30:25,117 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 13:30:25,135 INFO updateTextBox - Responce vars generated. Experiment 8 finished. Results:
+
+2021-12-01 13:30:25,148 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   8  |  7.7069  |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-12-01 13:50:21,183 INFO updateTextBox - Method finished at 13:50
+
+2021-12-01 13:50:21,195 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 13:50:22,498 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 13:50:22,519 INFO updateTextBox - Responce vars generated. Experiment 9 finished. Results:
+
+2021-12-01 13:50:22,533 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|   9  |  5.8344  |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-12-01 14:30:42,033 ERROR StartOptButtonPushed - Experiment took too long to run (40 minutes)
+2021-12-01 14:43:40,744 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-12-01 14:45:35,850 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-12-01 14:46:38,760 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-12-01 14:46:52,661 INFO updateTextBox - 
+HPLC started
+
+
+2021-12-01 14:46:52,667 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-12-01 14:46:52,672 INFO updateTextBox - 
+Experiment 10 has already been defined. Bypassing opt algorithm unitll all defined experiments have been run.
+
+2021-12-01 14:47:00,789 INFO updateTextBox - Method finished at 14:47
+
+2021-12-01 14:47:00,818 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 14:47:02,705 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 14:47:02,753 INFO updateTextBox - Responce vars generated. Experiment 10 finished. Results:
+
+2021-12-01 14:47:02,766 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | Maximisepeaknumber |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+|  10  |  9.6159  |     5    |    95   |  30  |      0      |    2   |     1    |    1   |    2    |  1 |         -11        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|--------------------|
+
+2021-12-01 14:47:07,422 INFO updateTextBox - Atempting to shutdown HPLC by writing to excel
+2021-12-07 10:25:20,481 DEBUG LoadVarsButtonPushed - File successfuly loaded.

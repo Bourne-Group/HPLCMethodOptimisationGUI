@@ -1,0 +1,968 @@
+2021-11-30 17:55:00,357 INFO updateTextBox - Variables loaded!
+
+
+2021-11-30 17:55:00,361 INFO updateTextBox - Conditions:
+
+
+2021-11-30 17:55:00,390 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 60 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 50 |     1    |
+|           C          | IsoHoldTime |  0, 10 |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    1   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-11-30 17:55:00,394 INFO updateTextBox -  
+
+
+2021-11-30 17:55:00,400 INFO updateTextBox - Inital number of experiments: 15
+
+2021-11-30 17:55:00,404 INFO updateTextBox - Equilbration time: 600
+
+2021-11-30 17:55:00,408 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC017Opt001
+
+2021-11-30 17:55:00,412 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-30 17:55:00,416 INFO updateTextBox - Optimisation algorithm selected: BayesianOptimiser
+
+2021-11-30 17:55:00,420 INFO updateTextBox - Responce functions: CombinedFunction1
+
+2021-11-30 17:55:00,424 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-30 17:55:00,650 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   1  |   9.89   |   48.14  |    95   | 43.96 |     7.35    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   2  |   4.83   |   20.85  |    95   | 29.35 |     3.84    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   3  |   2.09   |   54.07  |    95   | 32.24 |     5.25    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   4  |   6.68   |   30.02  |    95   | 33.57 |     2.81    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   5  |   8.71   |   34.36  |    95   | 28.33 |     7.13    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   6  |   3.45   |   11.47  |    95   | 37.19 |     9.19    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   7  |   7.09   |   50.43  |    95   | 42.34 |     5.57    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   8  |   4.12   |   39.42  |    95   | 31.33 |     0.78    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|   9  |    9.4   |   13.94  |    95   | 46.74 |     2.16    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|  10  |   7.84   |    24    |    95   |  39.1 |     6.41    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|  11  |   6.04   |   8.17   |    95   | 49.67 |     4.38    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|  12  |   5.23   |   57.58  |    95   | 36.51 |     1.5     |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|  13  |   1.08   |   31.93  |    95   | 26.63 |     9.54    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|  14  |   2.83   |   42.95  |    95   | 40.19 |     8.61    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|  15  |   2.59   |   18.71  |    95   | 45.31 |     0.61    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 17:55:00,668 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-30 17:55:31,416 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-30 17:55:31,466 INFO updateTextBox - Experiment 1 started at 17:55
+
+2021-11-30 17:55:31,470 INFO updateTextBox - Condtions: 
+
+2021-11-30 17:55:31,485 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   1  |   9.89   |   48.14  |    95   | 43.96 |     7.35    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 17:55:31,489 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 18:29:46,639 INFO updateTextBox - Method finished at 18:29
+
+2021-11-30 18:29:46,654 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 18:29:49,269 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 18:29:49,327 INFO updateTextBox - Responce vars generated. Experiment 1 finished. Results: 
+
+2021-11-30 18:29:49,656 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   1  |   9.89   |   48.14  |    95   | 43.96 |     7.35    |    2   |     1    |    1   |    2    |  1 |       0.2276      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 18:29:49,661 INFO updateTextBox - Experiment 2 started at 18:29
+
+2021-11-30 18:29:49,665 INFO updateTextBox - Condtions: 
+
+2021-11-30 18:29:49,679 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   2  |   4.83   |   20.85  |    95   | 29.35 |     3.84    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 18:29:49,683 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 18:57:44,463 INFO updateTextBox - Method finished at 18:57
+
+2021-11-30 18:57:44,475 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 18:57:45,966 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 18:57:45,992 INFO updateTextBox - Responce vars generated. Experiment 2 finished. Results: 
+
+2021-11-30 18:57:46,386 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   2  |   4.83   |   20.85  |    95   | 29.35 |     3.84    |    2   |     1    |    1   |    2    |  1 |      0.16069      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 18:57:46,390 INFO updateTextBox - Experiment 3 started at 18:57
+
+2021-11-30 18:57:46,394 INFO updateTextBox - Condtions: 
+
+2021-11-30 18:57:46,406 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   3  |   2.09   |   54.07  |    95   | 32.24 |     5.25    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 18:57:46,410 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 19:20:20,835 INFO updateTextBox - Method finished at 19:20
+
+2021-11-30 19:20:20,846 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 19:20:22,233 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 19:20:22,266 INFO updateTextBox - Responce vars generated. Experiment 3 finished. Results: 
+
+2021-11-30 19:20:22,706 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   3  |   2.09   |   54.07  |    95   | 32.24 |     5.25    |    2   |     1    |    1   |    2    |  1 |      0.23527      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 19:20:22,711 INFO updateTextBox - Experiment 4 started at 19:20
+
+2021-11-30 19:20:22,714 INFO updateTextBox - Condtions: 
+
+2021-11-30 19:20:22,729 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   4  |   6.68   |   30.02  |    95   | 33.57 |     2.81    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 19:20:22,733 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 19:44:27,256 INFO updateTextBox - Method finished at 19:44
+
+2021-11-30 19:44:27,267 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 19:44:28,921 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 19:44:28,942 INFO updateTextBox - Responce vars generated. Experiment 4 finished. Results: 
+
+2021-11-30 19:44:29,462 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   4  |   6.68   |   30.02  |    95   | 33.57 |     2.81    |    2   |     1    |    1   |    2    |  1 |      0.15545      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 19:44:29,469 INFO updateTextBox - Experiment 5 started at 19:44
+
+2021-11-30 19:44:29,473 INFO updateTextBox - Condtions: 
+
+2021-11-30 19:44:29,487 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   5  |   8.71   |   34.36  |    95   | 28.33 |     7.13    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 19:44:29,492 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 20:16:44,464 INFO updateTextBox - Method finished at 20:16
+
+2021-11-30 20:16:44,483 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 20:16:47,049 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 20:16:47,075 INFO updateTextBox - Responce vars generated. Experiment 5 finished. Results: 
+
+2021-11-30 20:16:47,728 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   5  |   8.71   |   34.36  |    95   | 28.33 |     7.13    |    2   |     1    |    1   |    2    |  1 |      0.22238      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 20:16:47,732 INFO updateTextBox - Experiment 6 started at 20:16
+
+2021-11-30 20:16:47,735 INFO updateTextBox - Condtions: 
+
+2021-11-30 20:16:47,749 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   6  |   3.45   |   11.47  |    95   | 37.19 |     9.19    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 20:16:47,753 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 20:45:37,496 INFO updateTextBox - Method finished at 20:45
+
+2021-11-30 20:45:37,508 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 20:45:39,582 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 20:45:39,605 INFO updateTextBox - Responce vars generated. Experiment 6 finished. Results: 
+
+2021-11-30 20:45:40,307 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   6  |   3.45   |   11.47  |    95   | 37.19 |     9.19    |    2   |     1    |    1   |    2    |  1 |      0.15105      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 20:45:40,309 INFO updateTextBox - Experiment 7 started at 20:45
+
+2021-11-30 20:45:40,313 INFO updateTextBox - Condtions: 
+
+2021-11-30 20:45:40,327 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   7  |   7.09   |   50.43  |    95   | 42.34 |     5.57    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 20:45:40,331 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 21:13:54,960 INFO updateTextBox - Method finished at 21:13
+
+2021-11-30 21:13:54,970 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 21:13:57,103 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 21:13:57,124 INFO updateTextBox - Responce vars generated. Experiment 7 finished. Results: 
+
+2021-11-30 21:13:57,921 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   7  |   7.09   |   50.43  |    95   | 42.34 |     5.57    |    2   |     1    |    1   |    2    |  1 |      0.22881      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 21:13:57,925 INFO updateTextBox - Experiment 8 started at 21:13
+
+2021-11-30 21:13:57,928 INFO updateTextBox - Condtions: 
+
+2021-11-30 21:13:57,941 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   8  |   4.12   |   39.42  |    95   | 31.33 |     0.78    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 21:13:57,945 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 21:36:47,383 INFO updateTextBox - Method finished at 21:36
+
+2021-11-30 21:36:47,393 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 21:36:48,560 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 21:36:48,582 INFO updateTextBox - Responce vars generated. Experiment 8 finished. Results: 
+
+2021-11-30 21:36:49,456 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   8  |   4.12   |   39.42  |    95   | 31.33 |     0.78    |    2   |     1    |    1   |    2    |  1 |      0.17222      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 21:36:49,461 INFO updateTextBox - Experiment 9 started at 21:36
+
+2021-11-30 21:36:49,465 INFO updateTextBox - Condtions: 
+
+2021-11-30 21:36:49,479 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   9  |    9.4   |   13.94  |    95   | 46.74 |     2.16    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 21:36:49,483 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 22:05:34,277 INFO updateTextBox - Method finished at 22:5
+
+2021-11-30 22:05:34,288 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 22:05:36,341 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 22:05:36,365 INFO updateTextBox - Responce vars generated. Experiment 9 finished. Results: 
+
+2021-11-30 22:05:37,294 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   9  |    9.4   |   13.94  |    95   | 46.74 |     2.16    |    2   |     1    |    1   |    2    |  1 |      0.18719      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 22:05:37,298 INFO updateTextBox - Experiment 10 started at 22:5
+
+2021-11-30 22:05:37,303 INFO updateTextBox - Condtions: 
+
+2021-11-30 22:05:37,316 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-------------------|
+|  10  |   7.84   |    24    |    95   | 39.1 |     6.41    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 22:05:37,319 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 22:36:32,203 INFO updateTextBox - Method finished at 22:36
+
+2021-11-30 22:36:32,213 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 22:36:34,651 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 22:36:34,677 INFO updateTextBox - Responce vars generated. Experiment 10 finished. Results: 
+
+2021-11-30 22:36:35,716 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-------------------|
+|  10  |   7.84   |    24    |    95   | 39.1 |     6.41    |    2   |     1    |    1   |    2    |  1 |      0.20365      |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 22:36:35,719 INFO updateTextBox - Experiment 11 started at 22:36
+
+2021-11-30 22:36:35,724 INFO updateTextBox - Condtions: 
+
+2021-11-30 22:36:35,737 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  11  |   6.04   |   8.17   |    95   | 49.67 |     4.38    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 22:36:35,740 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 23:03:30,440 INFO updateTextBox - Method finished at 23:3
+
+2021-11-30 23:03:30,452 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 23:03:32,388 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 23:03:32,415 INFO updateTextBox - Responce vars generated. Experiment 11 finished. Results: 
+
+2021-11-30 23:03:33,531 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  11  |   6.04   |   8.17   |    95   | 49.67 |     4.38    |    2   |     1    |    1   |    2    |  1 |      0.26659      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 23:03:33,535 INFO updateTextBox - Experiment 12 started at 23:3
+
+2021-11-30 23:03:33,539 INFO updateTextBox - Condtions: 
+
+2021-11-30 23:03:33,551 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  12  |   5.23   |   57.58  |    95   | 36.51 |     1.5     |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 23:03:33,555 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 23:28:28,072 INFO updateTextBox - Method finished at 23:28
+
+2021-11-30 23:28:28,084 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 23:28:29,570 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 23:28:29,599 INFO updateTextBox - Responce vars generated. Experiment 12 finished. Results: 
+
+2021-11-30 23:28:30,751 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  12  |   5.23   |   57.58  |    95   | 36.51 |     1.5     |    2   |     1    |    1   |    2    |  1 |      0.30679      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 23:28:30,756 INFO updateTextBox - Experiment 13 started at 23:28
+
+2021-11-30 23:28:30,760 INFO updateTextBox - Condtions: 
+
+2021-11-30 23:28:30,773 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  13  |   1.08   |   31.93  |    95   | 26.63 |     9.54    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 23:28:30,777 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-11-30 23:57:20,580 INFO updateTextBox - Method finished at 23:57
+
+2021-11-30 23:57:20,601 INFO updateTextBox - Reading method file ...
+
+
+2021-11-30 23:57:22,588 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-11-30 23:57:22,620 INFO updateTextBox - Responce vars generated. Experiment 13 finished. Results: 
+
+2021-11-30 23:57:23,859 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  13  |   1.08   |   31.93  |    95   | 26.63 |     9.54    |    2   |     1    |    1   |    2    |  1 |      0.21034      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 23:57:23,863 INFO updateTextBox - Experiment 14 started at 23:57
+
+2021-11-30 23:57:23,867 INFO updateTextBox - Condtions: 
+
+2021-11-30 23:57:23,879 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  14  |   2.83   |   42.95  |    95   | 40.19 |     8.61    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-30 23:57:23,884 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-12-01 00:25:43,588 INFO updateTextBox - Method finished at 0:25
+
+2021-12-01 00:25:43,600 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 00:25:45,754 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 00:25:45,790 INFO updateTextBox - Responce vars generated. Experiment 14 finished. Results: 
+
+2021-12-01 00:25:47,116 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  14  |   2.83   |   42.95  |    95   | 40.19 |     8.61    |    2   |     1    |    1   |    2    |  1 |      0.25064      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 00:25:47,120 INFO updateTextBox - Experiment 15 started at 0:25
+
+2021-12-01 00:25:47,123 INFO updateTextBox - Condtions: 
+
+2021-12-01 00:25:47,138 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  15  |   2.59   |   18.71  |    95   | 45.31 |     0.61    |    2   |     1    |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 00:25:47,142 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-12-01 00:44:36,273 INFO updateTextBox - Method finished at 0:44
+
+2021-12-01 00:44:36,284 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 00:44:37,391 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 00:44:37,427 INFO updateTextBox - Responce vars generated. Experiment 15 finished. Results: 
+
+2021-12-01 00:44:38,785 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|  15  |   2.59   |   18.71  |    95   | 45.31 |     0.61    |    2   |     1    |    1   |    2    |  1 |      0.25223      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 00:44:38,792 INFO updateTextBox - ***INIT CONDTIONS FINISHED AT 0:44***
+2021-12-01 00:44:38,815 INFO updateTextBox - 
+HPLC started
+
+
+2021-12-01 00:44:38,823 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-12-01 01:13:13,117 INFO updateTextBox - Method finished at 1:13
+
+2021-12-01 01:13:13,127 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 01:13:15,168 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 01:13:15,211 INFO updateTextBox - Responce vars generated. Experiment 16 finished. Results:
+
+2021-12-01 01:13:15,225 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  16  |  4.0259  |  18.3559 |    95   | 33.2772 |    6.2945   |    2   |     1    |    1   |    2    |  1 |      0.17524      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 01:42:50,417 INFO updateTextBox - Method finished at 1:42
+
+2021-12-01 01:42:50,428 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 01:42:52,987 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 01:42:53,024 INFO updateTextBox - Responce vars generated. Experiment 17 finished. Results:
+
+2021-12-01 01:42:53,038 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  17  |  5.2716  |  28.3565 |    95   | 31.4393 |    8.8163   |    2   |     1    |    1   |    2    |  1 |      0.19937      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 02:02:20,874 INFO updateTextBox - Method finished at 2:2
+
+2021-12-01 02:02:20,887 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 02:02:22,318 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 02:02:22,358 INFO updateTextBox - Responce vars generated. Experiment 18 finished. Results:
+
+2021-12-01 02:02:22,373 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  18  |  5.2063  |  25.9384 |    95   | 31.6033 |  4.4361e-5  |    2   |     1    |    1   |    2    |  1 |      0.19433      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 02:25:19,362 INFO updateTextBox - Method finished at 2:25
+
+2021-12-01 02:25:19,374 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 02:25:21,199 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 02:25:21,241 INFO updateTextBox - Responce vars generated. Experiment 19 finished. Results:
+
+2021-12-01 02:25:21,255 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  19  |  4.3059  |  30.6056 |    95   | 30.5766 |    3.5091   |    2   |     1    |    1   |    2    |  1 |      0.14842      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 02:53:46,113 INFO updateTextBox - Method finished at 2:53
+
+2021-12-01 02:53:46,125 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 02:53:48,500 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 02:53:48,570 INFO updateTextBox - Responce vars generated. Experiment 20 finished. Results:
+
+2021-12-01 02:53:48,588 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  20  |  2.5538  |  12.2164 |    95   | 26.4147 |    9.6247   |    2   |     1    |    1   |    2    |  1 |      0.19893      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 03:16:37,690 INFO updateTextBox - Method finished at 3:16
+
+2021-12-01 03:16:37,699 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 03:16:39,656 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 03:16:39,705 INFO updateTextBox - Responce vars generated. Experiment 21 finished. Results:
+
+2021-12-01 03:16:39,719 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  21  |  6.0572  |  31.7497 |    95   | 27.3002 |    2.5021   |    2   |     1    |    1   |    2    |  1 |      0.14117      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 03:36:52,316 INFO updateTextBox - Method finished at 3:36
+
+2021-12-01 03:36:52,329 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 03:36:53,779 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 03:36:53,836 INFO updateTextBox - Responce vars generated. Experiment 22 finished. Results:
+
+2021-12-01 03:36:53,849 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  22  |  2.2973  |  31.9713 |    95   | 25.0067 |    2.2389   |    2   |     1    |    1   |    2    |  1 |      0.22681      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 04:02:08,960 INFO updateTextBox - Method finished at 4:2
+
+2021-12-01 04:02:08,974 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 04:02:11,130 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 04:02:11,182 INFO updateTextBox - Responce vars generated. Experiment 23 finished. Results:
+
+2021-12-01 04:02:11,196 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  23  |  5.6179  |  29.224  |    95   | 29.1085 |    4.0417   |    2   |     1    |    1   |    2    |  1 |      0.15492      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 04:24:59,861 INFO updateTextBox - Method finished at 4:24
+
+2021-12-01 04:24:59,871 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 04:25:01,791 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 04:25:01,848 INFO updateTextBox - Responce vars generated. Experiment 24 finished. Results:
+
+2021-12-01 04:25:01,862 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  24  |  5.4976  |  34.8236 |    95   | 30.8413 |    2.4006   |    2   |     1    |    1   |    2    |  1 |      0.14075      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 04:49:22,730 INFO updateTextBox - Method finished at 4:49
+
+2021-12-01 04:49:22,740 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 04:49:24,750 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 04:49:24,812 INFO updateTextBox - Responce vars generated. Experiment 25 finished. Results:
+
+2021-12-01 04:49:24,826 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  25  |  7.3088  |  35.7648 |    95   | 28.0685 |    1.2102   |    2   |     1    |    1   |    2    |  1 |      0.12536      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 05:14:35,294 INFO updateTextBox - Method finished at 5:14
+
+2021-12-01 05:14:35,304 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 05:14:37,661 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 05:14:37,731 INFO updateTextBox - Responce vars generated. Experiment 26 finished. Results:
+
+2021-12-01 05:14:37,745 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  26  |  9.2082  |  30.7783 |    95   | 28.3044 |    1.7098   |    2   |     1    |    1   |    2    |  1 |      0.13879      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 05:40:42,741 INFO updateTextBox - Method finished at 5:40
+
+2021-12-01 05:40:42,752 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 05:40:45,075 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 05:40:45,134 INFO updateTextBox - Responce vars generated. Experiment 27 finished. Results:
+
+2021-12-01 05:40:45,147 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  27  |  8.8718  |  41.7339 |    95   | 26.5433 |    1.7092   |    2   |     1    |    1   |    2    |  1 |      0.10977      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 06:06:03,199 INFO updateTextBox - Method finished at 6:6
+
+2021-12-01 06:06:03,209 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 06:06:05,495 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 06:06:05,554 INFO updateTextBox - Responce vars generated. Experiment 28 finished. Results:
+
+2021-12-01 06:06:05,567 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  28  |   9.925  |  44.7107 |    95   | 25.1177 |   0.04639   |    2   |     1    |    1   |    2    |  1 |      0.13885      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 06:32:59,765 INFO updateTextBox - Method finished at 6:32
+
+2021-12-01 06:32:59,776 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 06:33:02,287 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 06:33:02,348 INFO updateTextBox - Responce vars generated. Experiment 29 finished. Results:
+
+2021-12-01 06:33:02,361 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  29  |   9.767  |  46.8201 |    95   | 28.1429 |    1.7577   |    2   |     1    |    1   |    2    |  1 |       0.1485      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 07:00:24,463 INFO updateTextBox - Method finished at 7:0
+
+2021-12-01 07:00:24,476 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 07:00:26,987 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 07:00:27,061 INFO updateTextBox - Responce vars generated. Experiment 30 finished. Results:
+
+2021-12-01 07:00:27,075 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  30  |  9.4395  |  37.6848 |    95   | 25.0131 |    1.9315   |    2   |     1    |    1   |    2    |  1 |       0.1181      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 07:24:03,262 INFO updateTextBox - Method finished at 7:24
+
+2021-12-01 07:24:03,273 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 07:24:05,561 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 07:24:05,640 INFO updateTextBox - Responce vars generated. Experiment 31 finished. Results:
+
+2021-12-01 07:24:05,654 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  31  |  7.4938  |  43.6357 |    95   | 25.0014 |    1.8011   |    2   |     1    |    1   |    2    |  1 |      0.10363      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 07:49:36,964 INFO updateTextBox - Method finished at 7:49
+
+2021-12-01 07:49:36,975 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 07:49:39,504 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 07:49:39,589 INFO updateTextBox - Responce vars generated. Experiment 32 finished. Results:
+
+2021-12-01 07:49:39,602 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  32  |  8.2007  |  46.1418 |    95   | 25.0001 |    2.9851   |    2   |     1    |    1   |    2    |  1 |      0.19088      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 08:12:51,995 INFO updateTextBox - Method finished at 8:12
+
+2021-12-01 08:12:52,006 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 08:12:54,280 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 08:12:54,360 INFO updateTextBox - Responce vars generated. Experiment 33 finished. Results:
+
+2021-12-01 08:12:54,373 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  33  |  7.7827  |  42.4627 |    95   | 25.0002 |    1.1442   |    2   |     1    |    1   |    2    |  1 |      0.10495      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 08:45:42,188 INFO updateTextBox - Method finished at 8:45
+
+2021-12-01 08:45:42,199 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 08:45:45,488 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 08:45:45,583 INFO updateTextBox - Responce vars generated. Experiment 34 finished. Results:
+
+2021-12-01 08:45:45,596 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  34  |  7.6931  |  5.0042  |    95   | 34.8044 |    8.4847   |    2   |     1    |    1   |    2    |  1 |      0.20255      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 09:11:07,003 INFO updateTextBox - Method finished at 9:11
+
+2021-12-01 09:11:07,028 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 09:11:09,262 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 09:11:09,352 INFO updateTextBox - Responce vars generated. Experiment 35 finished. Results:
+
+2021-12-01 09:11:09,371 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  35  |  6.5422  |  43.4137 |    95   | 27.1438 |    1.4439   |    2   |     1    |    1   |    2    |  1 |      0.11391      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 09:39:45,980 INFO updateTextBox - Method finished at 9:39
+
+2021-12-01 09:39:45,991 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 09:39:48,575 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 09:39:48,658 INFO updateTextBox - Responce vars generated. Experiment 36 finished. Results:
+
+2021-12-01 09:39:48,674 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  36  |  1.0165  |  5.0558  |    95   | 43.3998 |    9.9934   |    2   |     1    |    1   |    2    |  1 |      0.35009      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 10:10:31,228 INFO updateTextBox - Method finished at 10:10
+
+2021-12-01 10:10:31,239 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 10:10:34,054 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 10:10:34,144 INFO updateTextBox - Responce vars generated. Experiment 37 finished. Results:
+
+2021-12-01 10:10:34,159 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  37  |  8.3791  |  7.6447  |    95   | 32.2737 |    4.216    |    2   |     1    |    1   |    2    |  1 |      0.17137      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 10:35:28,302 INFO updateTextBox - Method finished at 10:35
+
+2021-12-01 10:35:28,314 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 10:35:30,763 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 10:35:30,872 INFO updateTextBox - Responce vars generated. Experiment 38 finished. Results:
+
+2021-12-01 10:35:30,887 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  38  |  1.0733  |  29.2403 |    95   | 34.7535 |    8.5088   |    2   |     1    |    1   |    2    |  1 |      0.21524      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 10:59:04,405 INFO updateTextBox - Method finished at 10:59
+
+2021-12-01 10:59:04,416 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 10:59:06,377 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 10:59:06,472 INFO updateTextBox - Responce vars generated. Experiment 39 finished. Results:
+
+2021-12-01 10:59:06,486 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  39  |  5.2984  |  26.5967 |    95   | 25.0331 |  2.2657e-5  |    2   |     1    |    1   |    2    |  1 |      0.19863      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 11:22:43,162 INFO updateTextBox - Method finished at 11:22
+
+2021-12-01 11:22:43,174 INFO updateTextBox - Reading method file ...
+
+
+2021-12-01 11:22:45,702 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-12-01 11:22:45,785 INFO updateTextBox - Responce vars generated. Experiment 40 finished. Results:
+
+2021-12-01 11:22:45,798 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|  40  |  8.1138  |  56.5845 |    95   | 25.0027 |    1.2264   |    2   |     1    |    1   |    2    |  1 |      0.26594      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-12-01 11:22:53,131 INFO updateTextBox - Atempting to shutdown HPLC by writing to excel
+2021-12-01 14:49:08,622 DEBUG LoadVarsButtonPushed - File successfuly loaded.

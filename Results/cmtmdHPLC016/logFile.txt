@@ -1,0 +1,60 @@
+2021-11-11 10:28:02,832 INFO updateTextBox - Variables loaded!
+
+
+2021-11-11 10:28:02,838 INFO updateTextBox - Conditions:
+
+
+2021-11-11 10:28:02,883 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 60 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 50 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |   1.5  |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-11-11 10:28:02,891 INFO updateTextBox -  
+
+
+2021-11-11 10:28:02,912 INFO updateTextBox - Inital number of experiments: 10
+
+2021-11-11 10:28:02,916 INFO updateTextBox - Equilbration time: 600
+
+2021-11-11 10:28:02,919 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC015
+
+2021-11-11 10:28:02,922 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-11 10:28:02,925 INFO updateTextBox - Optimisation algorithm selected: LVBayesian
+
+2021-11-11 10:28:02,928 INFO updateTextBox - Responce functions: CombinedFunction1
+
+2021-11-11 10:28:02,931 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-11 10:28:03,050 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+|   1  |    5.7   |   47.55  |    95   | 38.72 |     3.53    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   2  |   9.26   |   59.2   |    95   |   29  |     1.75    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   3  |   2.92   |   15.25  |    95   | 42.31 |     3.26    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   4  |   9.02   |   38.72  |    95   |  34.4 |     2.83    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   5  |   7.84   |   34.81  |    95   | 44.69 |     4.55    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   6  |   4.37   |   7.48   |    95   | 47.04 |     0.82    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   7  |   6.58   |   31.7   |    95   |  49.4 |     2.44    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   8  |   2.41   |   16.81  |    95   | 36.46 |     1.11    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|   9  |   1.08   |   51.08  |    95   | 27.38 |     4.31    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|  10  |   5.34   |   25.07  |    95   | 30.24 |     0.38    |    2   |    1.5   |    1   |    2    |  1 |        N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-11 10:28:03,080 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-11-11 10:29:55,351 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-15 14:23:44,587 DEBUG LoadVarsButtonPushed - File successfuly loaded.

@@ -1,0 +1,2112 @@
+2021-09-22 10:56:25,521 INFO updateTextBox - Variables loaded!
+
+
+2021-09-22 10:56:25,541 INFO updateTextBox - Conditions:
+
+
+2021-09-22 10:56:25,581 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-22 10:56:25,581 INFO updateTextBox -  
+
+
+2021-09-22 10:56:25,591 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-22 10:56:25,611 INFO updateTextBox - Equilbration time: 600
+
+2021-09-22 10:56:25,611 INFO updateTextBox - HPLC directory: C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\HPLC files and code\HPLC Data\cmtmdHPLC007Used
+
+2021-09-22 10:56:25,621 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-22 10:56:25,621 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-22 10:56:25,621 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-22 10:56:25,621 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-22 10:56:25,765 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   | 57.82 |     0.98    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   3  |    3.9   |   83.63  |    95   |  40.7 |     4.03    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   4  |   9.26   |   93.69  |    95   | 27.09 |     1.75    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   5  |   2.02   |   30.78  |    95   | 45.73 |     3.76    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   6  |   8.12   |   69.18  |    95   | 31.16 |     3.33    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   7  |   6.94   |   53.78  |    95   | 49.07 |     4.55    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   8  |   3.47   |   9.05   |    95   | 52.36 |     0.32    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   9  |   4.78   |   48.7   |    95   | 55.66 |     2.94    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|  10  |   1.51   |   33.32  |    95   | 37.54 |     1.11    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 10:56:25,780 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2021-09-22 11:46:57,022 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 11:46:57,072 INFO updateTextBox - Experiment 1 started at 11:46
+
+2021-09-22 11:46:57,072 INFO updateTextBox - Condtions: 
+
+2021-09-22 11:46:57,122 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   | 57.82 |     0.98    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 11:46:57,132 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 11:47:05,648 INFO updateTextBox - Method finished at 11:47
+
+2021-09-22 11:47:05,668 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 11:47:05,719 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-09-22 11:47:48,510 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 11:47:54,607 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 11:47:54,615 INFO updateTextBox - Experiment 1 started at 11:47
+
+2021-09-22 11:47:54,619 INFO updateTextBox - Condtions: 
+
+2021-09-22 11:47:54,631 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   | 57.82 |     0.98    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 11:47:54,631 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 12:16:40,711 INFO updateTextBox - Method finished at 12:16
+
+2021-09-22 12:16:40,731 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 12:16:40,731 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-09-22 12:46:11,743 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 12:46:45,934 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 12:46:45,940 INFO updateTextBox - Experiment 1 started at 12:46
+
+2021-09-22 12:46:45,944 INFO updateTextBox - Condtions: 
+
+2021-09-22 12:46:45,961 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   | 57.82 |     0.98    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 12:46:45,965 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 12:46:54,090 INFO updateTextBox - Method finished at 12:46
+
+2021-09-22 12:46:54,101 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 12:46:54,110 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-09-22 12:47:42,500 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 12:47:54,757 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 12:47:54,766 INFO updateTextBox - Experiment 1 started at 12:47
+
+2021-09-22 12:47:54,770 INFO updateTextBox - Condtions: 
+
+2021-09-22 12:47:54,783 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   | 57.82 |     0.98    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 12:47:54,783 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 12:48:02,904 INFO updateTextBox - Method finished at 12:48
+
+2021-09-22 12:48:02,915 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 12:48:04,872 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 12:48:04,912 INFO updateTextBox - Responce vars generated. Experiment 1 finished. Results: 
+
+2021-09-22 12:48:05,166 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   | 57.82 |     0.98    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 12:48:05,166 INFO updateTextBox - Experiment 2 started at 12:48
+
+2021-09-22 12:48:05,176 INFO updateTextBox - Condtions: 
+
+2021-09-22 12:48:05,186 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 12:48:05,186 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:18:11,638 INFO updateTextBox - Method finished at 13:18
+
+2021-09-22 13:18:11,648 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:18:13,080 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:18:13,102 ERROR StartInitButtonPushed - Failed to calculate responce variables.
+2021-09-22 13:28:04,974 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:28:22,063 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:28:22,070 INFO updateTextBox - Experiment 2 started at 13:28
+
+2021-09-22 13:28:22,073 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:28:22,087 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:28:22,087 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:28:30,191 INFO updateTextBox - Method finished at 13:28
+
+2021-09-22 13:28:30,202 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:28:31,602 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:28:31,613 ERROR StartInitButtonPushed - Failed to calculate responce variables.
+2021-09-22 13:30:14,904 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:30:17,974 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:30:17,981 INFO updateTextBox - Experiment 2 started at 13:30
+
+2021-09-22 13:30:17,986 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:30:18,001 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:30:18,001 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:30:36,114 INFO updateTextBox - Method finished at 13:30
+
+2021-09-22 13:30:36,116 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:30:37,540 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:30:42,091 ERROR StartInitButtonPushed - Failed to calculate responce variables.
+2021-09-22 13:31:10,619 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:31:19,056 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-09-22 13:31:23,817 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:31:23,825 INFO updateTextBox - Experiment 2 started at 13:31
+
+2021-09-22 13:31:23,830 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:31:23,846 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:31:23,850 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:31:31,984 INFO updateTextBox - Method finished at 13:31
+
+2021-09-22 13:31:31,994 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:31:33,384 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:33:33,562 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:33:35,217 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:33:35,225 INFO updateTextBox - Experiment 2 started at 13:33
+
+2021-09-22 13:33:35,229 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:33:35,251 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:33:35,251 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:33:43,392 INFO updateTextBox - Method finished at 13:33
+
+2021-09-22 13:33:43,401 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:33:44,901 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:36:35,608 ERROR StartInitButtonPushed - Failed to calculate responce variables.
+2021-09-22 13:37:03,000 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:37:05,644 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:37:05,654 INFO updateTextBox - Experiment 2 started at 13:37
+
+2021-09-22 13:37:05,655 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:37:05,685 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:37:05,685 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:37:13,835 INFO updateTextBox - Method finished at 13:37
+
+2021-09-22 13:37:13,845 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:37:15,318 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:41:17,050 ERROR StartInitButtonPushed - Failed to calculate responce variables.
+2021-09-22 13:41:47,068 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:42:01,711 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:42:01,719 INFO updateTextBox - Experiment 2 started at 13:42
+
+2021-09-22 13:42:01,722 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:42:01,751 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:42:01,755 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:42:09,885 INFO updateTextBox - Method finished at 13:42
+
+2021-09-22 13:42:09,896 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:42:11,374 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 13:53:15,008 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-22 13:53:29,628 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-22 13:53:29,636 INFO updateTextBox - Experiment 2 started at 13:53
+
+2021-09-22 13:53:29,640 INFO updateTextBox - Condtions: 
+
+2021-09-22 13:53:29,658 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-22 13:53:29,668 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-22 13:53:37,815 INFO updateTextBox - Method finished at 13:53
+
+2021-09-22 13:53:37,825 INFO updateTextBox - Reading method file ...
+
+
+2021-09-22 13:53:39,301 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-22 14:03:38,346 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 09:36:39,476 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 09:37:56,603 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 09:37:56,609 INFO updateTextBox - Experiment 2 started at 9:37
+
+2021-09-23 09:37:56,609 INFO updateTextBox - Condtions: 
+
+2021-09-23 09:37:56,671 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 09:37:56,675 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 09:38:04,899 INFO updateTextBox - Method finished at 9:38
+
+2021-09-23 09:38:04,915 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 09:38:06,515 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 09:38:40,614 ERROR StartInitButtonPushed - Failed to calculate responce variables.
+2021-09-23 09:39:17,839 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 09:39:30,959 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 09:39:30,968 INFO updateTextBox - Experiment 2 started at 9:39
+
+2021-09-23 09:39:30,972 INFO updateTextBox - Condtions: 
+
+2021-09-23 09:39:31,000 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 09:39:31,004 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 09:39:39,142 INFO updateTextBox - Method finished at 9:39
+
+2021-09-23 09:39:39,153 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 09:39:40,663 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 09:49:29,598 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 09:49:31,564 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 09:49:31,573 INFO updateTextBox - Experiment 2 started at 9:49
+
+2021-09-23 09:49:31,578 INFO updateTextBox - Condtions: 
+
+2021-09-23 09:49:31,604 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 09:49:31,604 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 09:50:04,790 INFO updateTextBox - Method finished at 9:50
+
+2021-09-23 09:50:04,809 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 09:50:06,267 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 09:50:29,862 INFO updateTextBox - Responce vars generated. Experiment 2 finished. Results: 
+
+2021-09-23 09:50:30,079 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |    6.4   |   66.36  |    95   | 34.27 |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1302 |         -5         |       1.7583       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 09:50:30,083 INFO updateTextBox - Experiment 3 started at 9:50
+
+2021-09-23 09:50:30,086 INFO updateTextBox - Condtions: 
+
+2021-09-23 09:50:30,100 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   3  |    3.9   |   83.63  |    95   | 40.7 |     4.03    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 09:50:30,104 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 10:19:25,516 INFO updateTextBox - Method finished at 10:19
+
+2021-09-23 10:19:25,528 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 10:19:25,550 ERROR StartInitButtonPushed - Failed to read HPLC file.
+2021-09-23 10:41:34,793 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 10:42:00,591 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 10:42:00,647 INFO updateTextBox - Experiment 3 started at 10:42
+
+2021-09-23 10:42:00,650 INFO updateTextBox - Condtions: 
+
+2021-09-23 10:42:00,666 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   3  |    3.9   |   83.63  |    95   | 40.7 |     4.03    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 10:42:00,670 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 11:04:10,672 INFO updateTextBox - Method finished at 11:4
+
+2021-09-23 11:04:10,683 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 11:04:12,023 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 11:04:12,092 INFO updateTextBox - Responce vars generated. Experiment 3 finished. Results: 
+
+2021-09-23 11:04:12,485 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   3  |    3.9   |   83.63  |    95   | 40.7 |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.4855 |         -3         |       1.0266       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 11:04:12,488 INFO updateTextBox - Experiment 4 started at 11:4
+
+2021-09-23 11:04:12,492 INFO updateTextBox - Condtions: 
+
+2021-09-23 11:04:12,505 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   4  |   9.26   |   93.69  |    95   | 27.09 |     1.75    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 11:04:12,508 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 11:34:22,675 ERROR StartInitButtonPushed - Experiment took too long to run (30 minutes)
+2021-09-23 11:52:28,807 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 11:52:43,935 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 11:52:43,942 INFO updateTextBox - Experiment 4 started at 11:52
+
+2021-09-23 11:52:43,946 INFO updateTextBox - Condtions: 
+
+2021-09-23 11:52:43,960 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   4  |   9.26   |   93.69  |    95   | 27.09 |     1.75    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 11:52:43,964 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 11:52:52,049 INFO updateTextBox - Method finished at 11:52
+
+2021-09-23 11:52:52,057 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 11:52:53,810 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 11:52:53,880 INFO updateTextBox - Responce vars generated. Experiment 4 finished. Results: 
+
+2021-09-23 11:52:54,237 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   4  |   9.26   |   93.69  |    95   | 27.09 |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.4588 |         -3         |       0.73777      |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 11:52:54,240 INFO updateTextBox - Experiment 5 started at 11:52
+
+2021-09-23 11:52:54,244 INFO updateTextBox - Condtions: 
+
+2021-09-23 11:52:54,257 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   5  |   2.02   |   30.78  |    95   | 45.73 |     3.76    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 11:52:54,261 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 12:16:43,892 INFO updateTextBox - Method finished at 12:16
+
+2021-09-23 12:16:43,902 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 12:16:45,071 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 12:16:45,153 INFO updateTextBox - Responce vars generated. Experiment 5 finished. Results: 
+
+2021-09-23 12:16:45,649 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   5  |   2.02   |   30.78  |    95   | 45.73 |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8391 |         -14        |       5.9887       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 12:16:45,653 INFO updateTextBox - Experiment 6 started at 12:16
+
+2021-09-23 12:16:45,655 INFO updateTextBox - Condtions: 
+
+2021-09-23 12:16:45,668 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   6  |   8.12   |   69.18  |    95   | 31.16 |     3.33    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 12:16:45,671 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 12:46:55,692 ERROR StartInitButtonPushed - Experiment took too long to run (30 minutes)
+2021-09-23 13:18:41,154 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 13:18:52,256 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 13:18:52,264 INFO updateTextBox - Experiment 6 started at 13:18
+
+2021-09-23 13:18:52,267 INFO updateTextBox - Condtions: 
+
+2021-09-23 13:18:52,283 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   6  |   8.12   |   69.18  |    95   | 31.16 |     3.33    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 13:18:52,287 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 13:19:00,378 INFO updateTextBox - Method finished at 13:19
+
+2021-09-23 13:19:00,388 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 13:19:02,303 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 13:19:02,402 INFO updateTextBox - Responce vars generated. Experiment 6 finished. Results: 
+
+2021-09-23 13:19:02,901 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   6  |   8.12   |   69.18  |    95   | 31.16 |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.23796 |         -5         |        2.067       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-23 13:19:02,905 INFO updateTextBox - Experiment 7 started at 13:19
+
+2021-09-23 13:19:02,908 INFO updateTextBox - Condtions: 
+
+2021-09-23 13:19:02,922 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   7  |   6.94   |   53.78  |    95   | 49.07 |     4.55    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 13:19:02,925 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 13:48:28,539 INFO updateTextBox - Method finished at 13:48
+
+2021-09-23 13:48:28,550 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 13:48:30,418 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 13:48:30,512 INFO updateTextBox - Responce vars generated. Experiment 7 finished. Results: 
+
+2021-09-23 13:48:31,192 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   7  |   6.94   |   53.78  |    95   | 49.07 |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.4884 |         -5         |       1.7595       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 13:48:31,196 INFO updateTextBox - Experiment 8 started at 13:48
+
+2021-09-23 13:48:31,199 INFO updateTextBox - Condtions: 
+
+2021-09-23 13:48:31,212 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   8  |   3.47   |   9.05   |    95   | 52.36 |     0.32    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 13:48:31,215 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 14:07:50,674 INFO updateTextBox - Method finished at 14:7
+
+2021-09-23 14:07:50,685 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 14:07:51,661 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 14:07:51,749 INFO updateTextBox - Responce vars generated. Experiment 8 finished. Results: 
+
+2021-09-23 14:07:52,476 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   8  |   3.47   |   9.05   |    95   | 52.36 |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.6542 |         -13        |       4.0111       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 14:07:52,480 INFO updateTextBox - Experiment 9 started at 14:7
+
+2021-09-23 14:07:52,483 INFO updateTextBox - Condtions: 
+
+2021-09-23 14:07:52,497 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   9  |   4.78   |   48.7   |    95   | 55.66 |     2.94    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 14:07:52,501 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 14:31:13,006 INFO updateTextBox - Method finished at 14:31
+
+2021-09-23 14:31:13,017 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 14:31:14,504 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 14:31:14,594 INFO updateTextBox - Responce vars generated. Experiment 9 finished. Results: 
+
+2021-09-23 14:31:15,372 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   9  |   4.78   |   48.7   |    95   | 55.66 |     2.94    |    2   |     2    |    1   |    2    |  1 | 0.90076 |         -4         |       2.3568       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 14:31:15,378 INFO updateTextBox - Experiment 10 started at 14:31
+
+2021-09-23 14:31:15,391 INFO updateTextBox - Condtions: 
+
+2021-09-23 14:31:15,405 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  10  |   1.51   |   33.32  |    95   | 37.54 |     1.11    |    2   |     2    |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 14:31:15,409 INFO updateTextBox - Waiting for method to finish...
+
+
+2021-09-23 14:53:49,971 INFO updateTextBox - Method finished at 14:53
+
+2021-09-23 14:53:49,993 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 14:53:50,903 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 14:53:51,019 INFO updateTextBox - Responce vars generated. Experiment 10 finished. Results: 
+
+2021-09-23 14:53:51,839 INFO updateTextBox - 
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  10  |   1.51   |   33.32  |    95   | 37.54 |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915 |         -11        |        2.923       |
+|------|----------|----------|---------|-------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-23 14:53:51,843 INFO updateTextBox - ***INIT CONDTIONS FINISHED AT 14:53***
+2021-09-23 14:53:55,896 INFO updateTextBox - Atempting to shutdown HPLC by writing to excel
+2021-09-23 16:03:13,965 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 16:13:14,060 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-23 16:13:27,862 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-23 16:13:34,915 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-09-23 16:41:10,115 INFO updateTextBox - Method finished at 16:41
+
+2021-09-23 16:41:10,140 INFO updateTextBox - Reading method file ...
+
+
+2021-09-23 16:41:12,182 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-23 16:41:12,393 INFO updateTextBox - Responce vars generated. Experiment 11 finished. Results:
+
+2021-09-23 16:41:12,410 INFO updateTextBox - 
+|------|----------|----------|---------|--------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |  Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|--------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  11  |  9.9448  |  36.7696 |    95   | 44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0308 |         -8         |       3.9267       |
+|------|----------|----------|---------|--------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 08:43:44,685 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-24 08:45:43,072 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-09-24 08:46:11,321 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-24 08:46:11,328 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-09-24 09:16:33,455 INFO updateTextBox - Method finished at 9:16
+
+2021-09-24 09:16:33,467 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 09:16:35,606 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 09:16:35,799 INFO updateTextBox - Responce vars generated. Experiment 12 finished. Results:
+
+2021-09-24 09:16:35,815 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 | 0.055222 |         -7         |       9.4821       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 09:38:58,295 INFO updateTextBox - Method finished at 9:38
+
+2021-09-24 09:38:58,305 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 09:38:59,084 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 09:38:59,263 INFO updateTextBox - Responce vars generated. Experiment 13 finished. Results:
+
+2021-09-24 09:38:59,282 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  13  |     1    |  9.2632  |    95   |  60  |      0      |    2   |     2    |    1   |    2    |  1 |  1.8415 |         -11        |       1.9025       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 10:17:15,367 ERROR StartOptButtonPushed - RunCondions failed to run an experiment.
+2021-09-24 10:17:37,641 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-24 10:19:22,706 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 10:19:22,710 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 10:19:22,714 INFO updateTextBox - Conditions:
+
+
+2021-09-24 10:19:22,742 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 10:19:22,746 INFO updateTextBox -  
+
+
+2021-09-24 10:19:22,750 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 10:19:22,754 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 10:19:22,758 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 10:19:22,762 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 10:19:22,766 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 10:19:22,768 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 10:19:22,773 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 10:19:23,016 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -14        |       8.0173       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1526  |         -4         |       1.3428       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5109  |         -3         |       1.0266       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  0.85735 |         -2         |       0.73728      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8782  |         -13        |       5.9893       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49595 |         -3         |       1.1773       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  -1.0766 |         -3         |       1.7595       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.6114  |         -13        |       4.0111       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  -2.8396 |         -3         |       2.3568       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  0.94629 |         -9         |        2.923       |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0392  |         -7         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.15665 |         -8         |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.6971  |         -10        |       1.9083       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 10:19:32,781 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 10:19:32,784 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 10:19:32,788 INFO updateTextBox - Conditions:
+
+
+2021-09-24 10:19:32,815 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 10:19:32,819 INFO updateTextBox -  
+
+
+2021-09-24 10:19:32,822 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 10:19:32,825 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 10:19:32,829 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 10:19:32,832 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 10:19:32,835 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 10:19:32,838 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 10:19:32,842 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 10:19:33,082 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -17        |       8.0173       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1526  |         -4         |       1.3428       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5109  |         -3         |       1.0266       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  0.85735 |         -2         |       0.73728      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8782  |         -14        |       5.9893       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49466 |         -3         |       1.1773       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.4884  |         -4         |       1.7595       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.6542  |         -13        |       4.0111       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.90076 |         -4         |       2.3568       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915  |         -11        |        2.923       |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0392  |         -7         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.15665 |         -8         |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.6971  |         -10        |       1.9083       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 10:20:00,968 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 10:20:00,972 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 10:20:00,976 INFO updateTextBox - Conditions:
+
+
+2021-09-24 10:20:01,002 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 10:20:01,006 INFO updateTextBox -  
+
+
+2021-09-24 10:20:01,010 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 10:20:01,013 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 10:20:01,017 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 10:20:01,020 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 10:20:01,024 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 10:20:01,028 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 10:20:01,031 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 10:20:01,265 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -14        |       6.7596       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 | -0.93427 |         -2         |       0.9859       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 | -0.52372 |         -1         |       0.69556      |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.2999  |         -1         |       0.56469      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.7891  |         -10        |       5.7415       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49466 |         -2         |       0.88709      |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  -1.0876 |         -3         |       1.7595       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.6542  |         -12        |       4.0111       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.90076 |         -4         |       2.3568       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915  |         -11        |        2.923       |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0216  |         -7         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.25149 |         -8         |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.5226  |         -5         |       1.6334       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 10:21:22,110 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-24 10:21:22,116 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-09-24 10:43:34,010 INFO updateTextBox - Method finished at 10:43
+
+2021-09-24 10:43:34,022 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 10:43:35,323 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 10:43:35,447 INFO updateTextBox - Responce vars generated. Experiment 14 finished. Results:
+
+2021-09-24 10:43:35,462 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 | -1.8595 |         -1         |       0.69897      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 11:05:58,033 INFO updateTextBox - Method finished at 11:5
+
+2021-09-24 11:05:58,043 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 11:05:59,552 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 11:05:59,692 INFO updateTextBox - Responce vars generated. Experiment 15 finished. Results:
+
+2021-09-24 11:05:59,706 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 | 0.74213 |         -4         |        2.131       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 11:27:42,454 INFO updateTextBox - Method finished at 11:27
+
+2021-09-24 11:27:42,463 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 11:27:43,377 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 11:27:43,510 INFO updateTextBox - Responce vars generated. Experiment 16 finished. Results:
+
+2021-09-24 11:27:43,524 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 | -1.4021 |         -2         |       0.95558      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 11:55:46,693 INFO updateTextBox - Method finished at 11:55
+
+2021-09-24 11:55:46,709 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 11:55:48,888 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 11:55:49,064 INFO updateTextBox - Responce vars generated. Experiment 17 finished. Results:
+
+2021-09-24 11:55:49,081 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 | -0.61934 |         -2         |       0.90371      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 12:17:36,441 INFO updateTextBox - Method finished at 12:17
+
+2021-09-24 12:17:36,454 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 12:17:37,983 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 12:17:38,131 INFO updateTextBox - Responce vars generated. Experiment 18 finished. Results:
+
+2021-09-24 12:17:38,146 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.6273 |         -8         |       4.1856       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 12:39:46,037 INFO updateTextBox - Method finished at 12:39
+
+2021-09-24 12:39:46,048 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 12:39:47,650 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 12:39:47,830 INFO updateTextBox - Responce vars generated. Experiment 19 finished. Results:
+
+2021-09-24 12:39:47,847 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 | 0.064169 |         -1         |       0.63329      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 13:20:07,256 ERROR StartOptButtonPushed - Experiment took too long to run (40 minutes)
+2021-09-24 13:59:39,281 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-24 13:59:55,408 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-24 13:59:55,414 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-09-24 14:26:21,716 INFO updateTextBox - Method finished at 14:26
+
+2021-09-24 14:26:21,735 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 14:26:23,594 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 14:26:23,850 INFO updateTextBox - Responce vars generated. Experiment 20 finished. Results:
+
+2021-09-24 14:26:23,866 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.6296 |         -17        |       7.6896       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 14:51:56,589 INFO updateTextBox - Method finished at 14:51
+
+2021-09-24 14:51:56,600 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 14:51:58,596 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 14:51:58,860 INFO updateTextBox - Responce vars generated. Experiment 21 finished. Results:
+
+2021-09-24 14:51:58,878 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.6596 |         -17        |       8.8144       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 15:21:07,128 INFO updateTextBox - Method finished at 15:21
+
+2021-09-24 15:21:07,140 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 15:21:09,067 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 15:21:09,303 INFO updateTextBox - Responce vars generated. Experiment 22 finished. Results:
+
+2021-09-24 15:21:09,318 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |  -1.356 |         -1         |       0.69785      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 15:40:22,206 INFO updateTextBox - Method finished at 15:40
+
+2021-09-24 15:40:22,218 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 15:40:23,478 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 15:40:23,740 INFO updateTextBox - Responce vars generated. Experiment 23 finished. Results:
+
+2021-09-24 15:40:23,757 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6201 |         -9         |       2.4227       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 15:56:59,739 ERROR StartOptButtonPushed - RunCondions failed to run an experiment.
+2021-09-24 15:57:21,842 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-24 15:57:28,462 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 15:57:28,468 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 15:57:28,472 INFO updateTextBox - Conditions:
+
+
+2021-09-24 15:57:28,499 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 15:57:28,504 INFO updateTextBox -  
+
+
+2021-09-24 15:57:28,508 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 15:57:28,512 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 15:57:28,516 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 15:57:28,520 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 15:57:28,523 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 15:57:28,526 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 15:57:28,530 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 15:57:29,196 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4434  |         -19        |       8.4536       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1302  |         -5         |        1.758       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5732  |         -4         |       1.0262       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.4588  |         -3         |       0.73777      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8391  |         -14        |       5.9887       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.23796 |         -5         |       2.0673       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.2708  |         -6         |       2.7424       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.8462  |         -21        |       4.3537       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  1.1361  |         -5         |       5.1633       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.2718  |         -12        |       3.0765       |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0308  |         -8         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 | 0.055222 |         -7         |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.8288  |         -11        |       1.9025       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |   1.056  |         -6         |       2.1004       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  1.4275  |         -8         |       5.1747       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  1.2596  |         -6         |       1.5267       |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |  1.2777  |         -4         |        1.205       |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.4643  |         -9         |       6.2562       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.7386  |         -4         |       0.89061      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.6296  |         -17        |       7.6896       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.6596  |         -17        |       8.8144       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |  1.4128  |         -2         |       0.69847      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4226  |         -12        |       2.6549       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 15:57:44,687 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 15:57:44,692 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 15:57:44,696 INFO updateTextBox - Conditions:
+
+
+2021-09-24 15:57:44,722 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 15:57:44,726 INFO updateTextBox -  
+
+
+2021-09-24 15:57:44,729 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 15:57:44,733 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 15:57:44,736 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 15:57:44,740 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 15:57:44,744 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 15:57:44,748 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 15:57:44,751 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 15:57:45,404 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4434  |         -19        |       8.4536       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1302  |         -5         |        1.758       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5732  |         -4         |       1.0262       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.4588  |         -3         |       0.73777      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8391  |         -14        |       5.9887       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.23796 |         -5         |       2.0673       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.2708  |         -6         |       2.7424       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.8462  |         -21        |       4.3537       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  1.1361  |         -5         |       5.1633       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.2718  |         -12        |       3.0765       |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0308  |         -8         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 | 0.055222 |         -7         |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.8288  |         -11        |       1.9025       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |   1.056  |         -6         |       2.1004       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  1.4275  |         -8         |       5.1747       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  1.2596  |         -6         |       1.5267       |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |  1.2777  |         -4         |        1.205       |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.4643  |         -9         |       6.2562       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.7386  |         -4         |       0.89061      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.6296  |         -17        |       7.6896       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.6596  |         -17        |       8.8144       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |  1.4128  |         -2         |       0.69847      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4226  |         -12        |       2.6549       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 15:59:36,640 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-24 15:59:56,969 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 15:59:56,973 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 15:59:56,977 INFO updateTextBox - Conditions:
+
+
+2021-09-24 15:59:57,005 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 15:59:57,009 INFO updateTextBox -  
+
+
+2021-09-24 15:59:57,013 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 15:59:57,016 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 15:59:57,020 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 15:59:57,023 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 15:59:57,026 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 15:59:57,030 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 15:59:57,033 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 15:59:57,669 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.7252  |         -23        |       8.4536       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1302  |         -8         |       3.6787       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5732  |         -5         |       1.1351       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.4588  |         -3         |       0.73777      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8391  |         -17        |       6.2187       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.23796 |         -5         |       2.0673       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |   1.575  |         -9         |       7.6798       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.8689  |         -23        |       4.3537       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  1.2965  |         -9         |       5.5656       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.6355  |         -16        |        3.43        |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0308  |         -10        |        4.903       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.28553 |         -10        |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.8848  |         -13        |       2.1765       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |  1.3996  |         -7         |       2.1004       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |   1.45   |         -12        |       5.1747       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  1.2596  |         -6         |       1.5267       |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |  1.3475  |         -8         |       2.1019       |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.5725  |         -13        |       6.3653       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.9677  |         -6         |       0.96717      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.6862  |         -23        |       7.8616       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |   1.635  |         -22        |       8.9327       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |  1.4128  |         -2         |       0.69847      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.5185  |         -16        |       2.6549       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:02:03,059 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 16:02:03,063 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 16:02:03,066 INFO updateTextBox - Conditions:
+
+
+2021-09-24 16:02:03,092 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 16:02:03,096 INFO updateTextBox -  
+
+
+2021-09-24 16:02:03,099 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 16:02:03,103 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 16:02:03,106 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 16:02:03,109 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 16:02:03,113 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 16:02:03,117 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 16:02:03,120 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 16:02:03,747 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.7245  |         -26        |       8.4536       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1244  |         -8         |       3.6787       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5732  |         -5         |       1.1351       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.9503  |         -4         |       0.73777      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8391  |         -19        |       6.2187       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.23796 |         -5         |       2.0673       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.5698  |         -10        |       7.6798       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.8607  |         -23        |       4.3537       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  1.2965  |         -9         |       5.5656       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.6355  |         -17        |        3.43        |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0308  |         -10        |        4.903       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.30153 |         -10        |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.8848  |         -14        |       2.1765       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |  1.3996  |         -7         |       2.1004       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  1.6857  |         -13        |       5.1747       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  1.2596  |         -6         |       1.5267       |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |  1.3475  |         -8         |       2.1019       |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.6273  |         -14        |       6.3653       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.9677  |         -6         |       0.96717      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.6862  |         -24        |       7.8616       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.6341  |         -24        |       8.9327       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |  1.4128  |         -2         |       0.69847      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6989  |         -17        |       2.6549       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:03:10,808 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 16:03:10,812 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 16:03:10,815 INFO updateTextBox - Conditions:
+
+
+2021-09-24 16:03:10,842 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 16:03:10,845 INFO updateTextBox -  
+
+
+2021-09-24 16:03:10,848 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 16:03:10,852 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 16:03:10,855 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 16:03:10,859 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 16:03:10,862 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 16:03:10,866 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 16:03:10,869 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 16:03:11,521 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -23        |       8.2619       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |  1.1526  |         -5         |       1.7581       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.5869  |         -4         |       1.0266       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.9503  |         -4         |       0.73728      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.8782  |         -19        |       6.2187       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.19965 |         -5         |       2.0675       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.5125  |         -7         |       2.7423       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.7868  |         -18        |        4.353       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.88488 |         -5         |       5.1638       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915  |         -16        |        3.43        |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0392  |         -8         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.30153 |         -10        |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.7207  |         -13        |       2.1765       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |  0.44212 |         -5         |       1.9556       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  1.6465  |         -9         |       5.1744       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  1.2344  |         -6         |        1.527       |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 | -0.61879 |         -3         |       1.2052       |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.6273  |         -11        |       6.2554       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.9412  |         -4         |       0.89147      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.2574  |         -20        |       7.6895       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.2022  |         -20        |       8.8145       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |  1.4957  |         -2         |       0.69785      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6675  |         -15        |       2.6549       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:04:00,212 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-24 16:04:00,219 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-09-24 16:07:15,782 INFO updateTextBox - Method finished at 16:7
+
+2021-09-24 16:07:15,792 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 16:07:17,688 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 16:07:17,974 INFO updateTextBox - Responce vars generated. Experiment 24 finished. Results:
+
+2021-09-24 16:07:17,988 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4282 |         -16        |       6.1906       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 16:08:08,817 ERROR StartOptButtonPushed - RunCondions failed to run an experiment.
+2021-09-24 16:19:56,634 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-09-24 16:20:11,634 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 16:20:11,640 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 16:20:11,645 INFO updateTextBox - Conditions:
+
+
+2021-09-24 16:20:11,673 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 16:20:11,678 INFO updateTextBox -  
+
+
+2021-09-24 16:20:11,683 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 16:20:11,687 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 16:20:11,690 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 16:20:11,694 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 16:20:11,699 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 16:20:11,702 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 16:20:11,706 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 16:20:12,417 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -18        |       7.0677       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 | -0.93427 |         -2         |       0.9859       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.6377  |         -3         |       0.76275      |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.9503  |         -3         |       0.73494      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.7891  |         -16        |       6.2187       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49493 |         -3         |       1.4552       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.4482  |         -4         |       1.7595       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |   1.739  |         -14        |       4.0103       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.88488 |         -5         |       5.1638       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915  |         -14        |        3.43        |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0216  |         -8         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.30153 |         -10        |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.7238  |         -9         |       2.1765       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |  -1.4498 |         -2         |       1.0865       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  0.74213 |         -4         |        2.131       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  -1.4021 |         -2         |       0.95558      |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 | -0.61879 |         -2         |       0.90372      |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.6273  |         -9         |       4.1854       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.9412  |         -2         |       0.64588      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.0003  |         -13        |        6.887       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.1224  |         -14        |       8.0737       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 | -0.21784 |         -1         |       0.69517      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6201  |         -12        |       2.4227       |
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4282  |         -15        |       6.1906       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:20:40,869 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 16:20:40,873 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 16:20:40,877 INFO updateTextBox - Conditions:
+
+
+2021-09-24 16:20:40,904 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 16:20:40,908 INFO updateTextBox -  
+
+
+2021-09-24 16:20:40,911 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 16:20:40,915 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 16:20:40,918 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 16:20:40,922 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 16:20:40,925 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 16:20:40,928 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 16:20:40,932 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 16:20:41,598 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -18        |       7.0677       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 | -0.93427 |         -2         |       0.9859       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.6377  |         -3         |       0.76275      |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.9503  |         -3         |       0.73494      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.5069  |         -15        |       6.2187       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49493 |         -3         |       1.4552       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.4482  |         -4         |       1.7595       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |   1.739  |         -14        |       4.0103       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.88488 |         -5         |       5.1638       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915  |         -14        |        3.43        |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  0.96309 |         -8         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.30153 |         -10        |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.4826  |         -8         |       2.1765       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |  -1.4498 |         -2         |       1.0865       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  0.74213 |         -4         |        2.131       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  -1.4021 |         -2         |       0.95558      |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 | -0.61879 |         -2         |       0.90372      |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.6174  |         -9         |       4.1854       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |   1.958  |         -2         |       0.6405       |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.0003  |         -13        |        6.887       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.1245  |         -13        |       8.0737       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 | -0.21784 |         -1         |       0.69517      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6201  |         -12        |       2.4227       |
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4282  |         -15        |       6.1906       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:20:54,720 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 16:20:54,727 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 16:20:54,731 INFO updateTextBox - Conditions:
+
+
+2021-09-24 16:20:54,764 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 16:20:54,768 INFO updateTextBox -  
+
+
+2021-09-24 16:20:54,773 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 16:20:54,778 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 16:20:54,782 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 16:20:54,787 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 16:20:54,792 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 16:20:54,797 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 16:20:54,819 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 16:20:55,732 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -18        |       7.0677       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 | -0.93427 |         -2         |       0.9859       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.6377  |         -3         |       0.76275      |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.9503  |         -3         |       0.73494      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.7891  |         -16        |       6.2187       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49493 |         -3         |       1.4552       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.4482  |         -4         |       1.7595       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |   1.739  |         -14        |       4.0103       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.88488 |         -5         |       5.1638       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5915  |         -14        |        3.43        |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  1.0216  |         -8         |       3.9267       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  0.30153 |         -10        |       9.4821       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.7238  |         -9         |       2.1765       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |  -1.4498 |         -2         |       1.0865       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  0.74213 |         -4         |        2.131       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  -1.4021 |         -2         |       0.95558      |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 | -0.61879 |         -2         |       0.90372      |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.6273  |         -9         |       4.1854       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.9412  |         -2         |       0.64588      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.0003  |         -13        |        6.887       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.1224  |         -14        |       8.0737       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 | -0.21784 |         -1         |       0.69517      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6201  |         -12        |       2.4227       |
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4282  |         -15        |       6.1906       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:25:06,375 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-09-24 16:25:06,379 INFO updateTextBox - Variables loaded!
+
+
+2021-09-24 16:25:06,383 INFO updateTextBox - Conditions:
+
+
+2021-09-24 16:25:06,413 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-09-24 16:25:06,417 INFO updateTextBox -  
+
+
+2021-09-24 16:25:06,421 INFO updateTextBox - Inital number of experiments: 10
+
+2021-09-24 16:25:06,424 INFO updateTextBox - Equilbration time: 600
+
+2021-09-24 16:25:06,428 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC010
+
+2021-09-24 16:25:06,432 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-09-24 16:25:06,436 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2021-09-24 16:25:06,440 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2021-09-24 16:25:06,443 INFO updateTextBox - 
+Experiments: 
+
+
+2021-09-24 16:25:07,140 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |  1.3996  |         -20        |       9.4917       |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 | -0.93427 |         -3         |        1.756       |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |  1.6366  |         -4         |       1.0256       |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |  1.9503  |         -3         |       0.73493      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |  1.5242  |         -15        |       6.2191       |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 | -0.49493 |         -3         |       1.4558       |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |  1.4228  |         -4         |       1.7596       |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |  1.6852  |         -18        |       4.3607       |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |  0.92117 |         -5         |       5.1644       |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |  1.5885  |         -15        |       3.4279       |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |  0.96309 |         -9         |       3.9268       |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |  1.7993  |         -14        |       9.4823       |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |  1.7787  |         -9         |       2.1755       |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 | -0.48679 |         -3         |       1.4234       |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |  1.8151  |         -6         |       2.1312       |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |  0.75397 |         -4         |        1.531       |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |  1.1239  |         -3         |       0.90372      |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |  1.4943  |         -9         |       6.6302       |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |  1.9292  |         -3         |       0.89667      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |  1.6906  |         -17        |       6.8868       |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |  1.6471  |         -15        |       8.0736       |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 | -0.21784 |         -1         |       0.69517      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |  1.6388  |         -13        |       2.4227       |
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |  1.4361  |         -16        |       6.1893       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2021-09-24 16:26:53,697 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-09-24 16:27:05,425 INFO updateTextBox - 
+HPLC started
+
+
+2021-09-24 16:27:05,432 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-09-24 16:46:31,917 INFO updateTextBox - Method finished at 16:46
+
+2021-09-24 16:46:31,937 INFO updateTextBox - Reading method file ...
+
+
+2021-09-24 16:46:33,541 INFO updateTextBox - Calculating responce variables ...
+
+
+2021-09-24 16:46:33,740 INFO updateTextBox - Responce vars generated. Experiment 25 finished. Results:
+
+2021-09-24 16:46:33,755 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|  25  |  2.2409  |  27.4673 |    95   | 31.9843 |    1.2998   |    2   |     2    |    1   |    2    |  1 |  1.7853 |         -13        |       3.6034       |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2021-09-24 16:46:39,488 INFO updateTextBox - Atempting to shutdown HPLC by writing to excel
+2021-11-01 09:35:22,671 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-01 09:35:36,185 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-11-01 09:35:36,195 INFO updateTextBox - Variables loaded!
+
+
+2021-11-01 09:35:36,203 INFO updateTextBox - Conditions:
+
+
+2021-11-01 09:35:36,243 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-11-01 09:35:36,263 INFO updateTextBox -  
+
+
+2021-11-01 09:35:36,268 INFO updateTextBox - Inital number of experiments: 10
+
+2021-11-01 09:35:36,274 INFO updateTextBox - Equilbration time: 600
+
+2021-11-01 09:35:36,279 INFO updateTextBox - HPLC directory: C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\HPLC files and code\HPLC Data\cmtmdHPLCTemp
+
+2021-11-01 09:35:36,283 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-01 09:35:36,289 INFO updateTextBox - Optimisation algorithm selected: LVBayesian
+
+2021-11-01 09:35:36,294 INFO updateTextBox - Responce functions: CombinedFunction1
+
+2021-11-01 09:35:36,299 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-01 09:35:36,815 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |      0.27814      |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |       0.8394      |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |      0.83914      |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |      0.83866      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |       0.4682      |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 |      0.86374      |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |       0.7617      |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |       0.4318      |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |      0.74762      |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |      0.54007      |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |      0.65656      |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |       0.6487      |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |      0.61962      |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |      0.83835      |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |      0.79056      |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |      0.78457      |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |      0.84011      |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |      0.58159      |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |      0.83919      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |      0.41578      |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |      0.39246      |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |      0.91647      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |       0.5105      |
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |      0.46647      |
+|  25  |  2.2409  |  27.4673 |    95   | 31.9843 |    1.2998   |    2   |     2    |    1   |    2    |  1 |      0.57168      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-01 09:35:54,416 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2021-11-01 09:35:54,420 INFO updateTextBox - Variables loaded!
+
+
+2021-11-01 09:35:54,427 INFO updateTextBox - Conditions:
+
+
+2021-11-01 09:35:54,470 INFO updateTextBox - 
+|----------------------|-------------|--------|----------|
+| DiscreteOrContinuous |     Name    |  Data  | Optimise |
+|----------------------|-------------|--------|----------|
+|           C          |   GradTime  |  1, 10 |     1    |
+|           C          |   InitalOM  |  5, 95 |     1    |
+|           C          |   FinalOM   |   95   |     0    |
+|           C          |     Temp    | 25, 60 |     1    |
+|           C          | IsoHoldTime |  0, 5  |     1    |
+|           C          |    InjVol   |    2   |     0    |
+|           C          |   FlowRate  |    2   |     0    |
+|           D          |    Column   |    1   |     0    |
+|           D          |   OMPhase   |    2   |     0    |
+|           D          |      Ph     |    1   |     0    |
+|----------------------|-------------|--------|----------|
+
+2021-11-01 09:35:54,474 INFO updateTextBox -  
+
+
+2021-11-01 09:35:54,480 INFO updateTextBox - Inital number of experiments: 10
+
+2021-11-01 09:35:54,486 INFO updateTextBox - Equilbration time: 600
+
+2021-11-01 09:35:54,492 INFO updateTextBox - HPLC directory: C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\HPLC files and code\HPLC Data\cmtmdHPLCTemp
+
+2021-11-01 09:35:54,498 INFO updateTextBox - Sample Postion: P1-A1
+
+2021-11-01 09:35:54,503 INFO updateTextBox - Optimisation algorithm selected: LVBayesian
+
+2021-11-01 09:35:54,509 INFO updateTextBox - Responce functions: CombinedFunction1
+
+2021-11-01 09:35:54,514 INFO updateTextBox - 
+Experiments: 
+
+
+2021-11-01 09:35:55,042 INFO updateTextBox - 
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+| Exp. | GradTime | InitalOM | FinalOM |   Temp  | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | CombinedFunction1 |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+|   1  |   8.23   |   14.8   |    95   |  57.82  |     0.98    |    2   |     2    |    1   |    2    |  1 |      0.36214      |
+|   2  |    6.4   |   66.36  |    95   |  34.27  |     2.05    |    2   |     2    |    1   |    2    |  1 |       0.8394      |
+|   3  |    3.9   |   83.63  |    95   |   40.7  |     4.03    |    2   |     2    |    1   |    2    |  1 |      0.83914      |
+|   4  |   9.26   |   93.69  |    95   |  27.09  |     1.75    |    2   |     2    |    1   |    2    |  1 |      0.83866      |
+|   5  |   2.02   |   30.78  |    95   |  45.73  |     3.76    |    2   |     2    |    1   |    2    |  1 |       0.4682      |
+|   6  |   8.12   |   69.18  |    95   |  31.16  |     3.33    |    2   |     2    |    1   |    2    |  1 |      0.86374      |
+|   7  |   6.94   |   53.78  |    95   |  49.07  |     4.55    |    2   |     2    |    1   |    2    |  1 |       0.7617      |
+|   8  |   3.47   |   9.05   |    95   |  52.36  |     0.32    |    2   |     2    |    1   |    2    |  1 |       0.4318      |
+|   9  |   4.78   |   48.7   |    95   |  55.66  |     2.94    |    2   |     2    |    1   |    2    |  1 |      0.74762      |
+|  10  |   1.51   |   33.32  |    95   |  37.54  |     1.11    |    2   |     2    |    1   |    2    |  1 |      0.54007      |
+|  11  |  9.9448  |  36.7696 |    95   |  44.698 |   0.27045   |    2   |     2    |    1   |    2    |  1 |      0.65656      |
+|  12  |  8.4809  |  5.0982  |    95   | 29.1125 |    3.3616   |    2   |     2    |    1   |    2    |  1 |       0.6487      |
+|  13  |     1    |  9.2632  |    95   |    60   |      0      |    2   |     2    |    1   |    2    |  1 |      0.61962      |
+|  14  |  2.6815  |  74.9974 |    95   | 30.3248 |    2.4407   |    2   |     2    |    1   |    2    |  1 |      0.83835      |
+|  15  |  5.2925  |  53.6096 |    95   | 33.3875 |    1.396    |    2   |     2    |    1   |    2    |  1 |      0.79056      |
+|  16  |     1    |  73.2156 |    95   | 59.2633 |   0.51621   |    2   |     2    |    1   |    2    |  1 |      0.78457      |
+|  17  |  7.9357  |  64.3078 |    95   | 55.3943 |    3.7949   |    2   |     2    |    1   |    2    |  1 |      0.84011      |
+|  18  |  1.1771  |  41.4394 |    95   | 58.6349 |    4.958    |    2   |     2    |    1   |    2    |  1 |      0.58159      |
+|  19  |  6.0989  |  82.7053 |    95   | 57.0153 |   0.58557   |    2   |     2    |    1   |    2    |  1 |      0.83919      |
+|  20  |  7.5283  |  6.9827  |    95   | 44.4742 |   0.59058   |    2   |     2    |    1   |    2    |  1 |      0.41578      |
+|  21  |  6.5167  |  14.8883 |    95   | 51.2898 |    2.6828   |    2   |     2    |    1   |    2    |  1 |      0.39246      |
+|  22  |  5.6165  |  93.0751 |    95   | 33.6181 |    3.0997   |    2   |     2    |    1   |    2    |  1 |      0.91647      |
+|  23  |  2.6578  |  29.2895 |    95   | 42.3743 |      0      |    2   |     2    |    1   |    2    |  1 |       0.5105      |
+|  24  |  1.7812  |  35.0519 |    95   | 47.0306 |      0      |    2   |     2    |    1   |    2    |  1 |      0.46647      |
+|  25  |  2.2409  |  27.4673 |    95   | 31.9843 |    1.2998   |    2   |     2    |    1   |    2    |  1 |      0.57168      |
+|------|----------|----------|---------|---------|-------------|--------|----------|--------|---------|----|-------------------|
+
+2021-11-01 09:40:54,907 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-11-01 09:40:54,977 ERROR startHPLC - Failed to connect to excel to start HPLC.
+2021-11-01 09:44:20,282 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-01 09:44:20,288 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-11-01 09:44:20,400 ERROR StartOptButtonPushed - Algorithm failed to evaluate next set of condtions, stopping optimisation.
+2021-11-01 09:48:10,131 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-01 09:48:15,660 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-01 09:48:15,665 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2021-11-01 09:52:05,667 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2021-11-01 09:52:20,438 INFO updateTextBox - 
+HPLC started
+
+
+2021-11-01 09:52:20,446 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
