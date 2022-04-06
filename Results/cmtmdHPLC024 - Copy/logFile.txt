@@ -1,0 +1,2042 @@
+2022-03-29 09:39:42,900 INFO updateTextBox - Variables loaded!
+
+
+2022-03-29 09:39:42,904 INFO updateTextBox - Conditions:
+
+
+2022-03-29 09:39:42,931 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  | 5, 60 |     1    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime | 0, 10 |     1    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2022-03-29 09:39:42,935 INFO updateTextBox -  
+
+
+2022-03-29 09:39:42,941 INFO updateTextBox - Inital number of experiments: 7
+
+2022-03-29 09:39:42,945 INFO updateTextBox - Equilbration time: 180
+
+2022-03-29 09:39:42,948 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC024
+
+2022-03-29 09:39:42,951 INFO updateTextBox - Sample Postion: P1-A1
+
+2022-03-29 09:39:42,954 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2022-03-29 09:39:42,959 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2022-03-29 09:39:42,962 INFO updateTextBox - 
+Experiments: 
+
+
+2022-03-29 09:39:43,047 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |    6.1   |   10.48  |    95   |  30  |     4.33    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   2  |   6.89   |   42.16  |    95   |  30  |     5.84    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   3  |   9.29   |   16.73  |    95   |  30  |     8.78    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   4  |   2.37   |   53.12  |    95   |  30  |     1.06    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   5  |   2.01   |   23.58  |    95   |  30  |     8.57    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   6  |   4.56   |   28.69  |    95   |  30  |     3.34    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   7  |    7.6   |   50.94  |    95   |  30  |     1.47    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 09:39:43,060 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2022-03-29 09:48:07,932 INFO updateTextBox - 
+HPLC started
+
+
+2022-03-29 09:48:07,949 INFO updateTextBox - Experiment 1 started at 9:48
+
+2022-03-29 09:48:07,952 INFO updateTextBox - Condtions: 
+
+2022-03-29 09:48:07,969 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |    6.1   |   10.48  |    95   |  30  |     4.33    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 09:48:07,973 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 09:48:16,159 INFO updateTextBox - Method finished at 9:48
+
+2022-03-29 09:48:16,175 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 09:48:17,264 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 09:48:17,303 INFO updateTextBox - Responce vars generated. Experiment 1 finished. Results: 
+
+2022-03-29 09:48:17,441 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|   1  |    6.1   |   10.48  |    95   |  30  |     4.33    |    2   |    1.5   |    1   |    2    |  1 |  -2.521 |          0         |       1.6737       |      -1.2595      |         0.53852        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 09:48:17,445 INFO updateTextBox - Experiment 2 started at 9:48
+
+2022-03-29 09:48:17,448 INFO updateTextBox - Condtions: 
+
+2022-03-29 09:48:17,462 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|   2  |   6.89   |   42.16  |    95   |  30  |     5.84    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |        N/A        |           N/A          |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 09:48:17,466 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 09:49:46,518 INFO updateTextBox - Variables loaded!
+
+
+2022-03-29 09:49:46,522 INFO updateTextBox - Conditions:
+
+
+2022-03-29 09:49:46,553 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  | 5, 60 |     1    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime | 0, 10 |     1    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2022-03-29 09:49:46,559 INFO updateTextBox -  
+
+
+2022-03-29 09:49:46,565 INFO updateTextBox - Inital number of experiments: 7
+
+2022-03-29 09:49:46,569 INFO updateTextBox - Equilbration time: 180
+
+2022-03-29 09:49:46,574 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC024
+
+2022-03-29 09:49:46,579 INFO updateTextBox - Sample Postion: P1-A1
+
+2022-03-29 09:49:46,583 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2022-03-29 09:49:46,587 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2022-03-29 09:49:46,592 INFO updateTextBox - 
+Experiments: 
+
+
+2022-03-29 09:49:46,693 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.24   |   11.52  |    95   |  30  |     0.05    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   2  |   4.74   |   24.94  |    95   |  30  |     1.92    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   3  |   8.96   |   29.87  |    95   |  30  |     2.98    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   4  |   2.91   |   44.42  |    95   |  30  |     4.85    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   5  |   5.44   |   13.41  |    95   |  30  |     5.92    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   6  |   1.47   |   36.48  |    95   |  30  |     9.34    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|   7  |   7.27   |   58.09  |    95   |  30  |     7.45    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 09:49:46,708 DEBUG applyVars - Variables successfuly initialised, saved and log file created.
+2022-03-29 09:50:04,252 INFO updateTextBox - 
+HPLC started
+
+
+2022-03-29 09:50:04,259 INFO updateTextBox - Experiment 1 started at 9:50
+
+2022-03-29 09:50:04,262 INFO updateTextBox - Condtions: 
+
+2022-03-29 09:50:04,276 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.24   |   11.52  |    95   |  30  |     0.05    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 09:50:04,281 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 10:30:13,795 ERROR StartInitButtonPushed - Experiment took too long to run (40 minutes)
+2022-03-29 10:35:24,744 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2022-03-29 10:35:32,748 INFO updateTextBox - 
+HPLC started
+
+
+2022-03-29 10:35:32,756 INFO updateTextBox - Experiment 1 started at 10:35
+
+2022-03-29 10:35:32,760 INFO updateTextBox - Condtions: 
+
+2022-03-29 10:35:32,775 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.24   |   11.52  |    95   |  30  |     0.05    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 10:35:32,779 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 10:39:05,015 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2022-03-29 10:39:14,736 INFO updateTextBox - 
+HPLC started
+
+
+2022-03-29 10:39:14,743 INFO updateTextBox - Experiment 1 started at 10:39
+
+2022-03-29 10:39:14,747 INFO updateTextBox - Condtions: 
+
+2022-03-29 10:39:14,761 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.24   |   11.52  |    95   |  30  |     0.05    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 10:39:14,763 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 10:54:40,224 INFO updateTextBox - Method finished at 10:54
+
+2022-03-29 10:54:40,233 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 10:54:41,636 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 10:54:41,660 INFO updateTextBox - Responce vars generated. Experiment 1 finished. Results: 
+
+2022-03-29 10:54:41,808 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   1  |   8.24   |   11.52  |    95   |  30  |     0.05    |    2   |    1.5   |    1   |    2    |  1 | 0.30711 |       -1.9459      |        1.927       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 10:54:41,812 INFO updateTextBox - Experiment 2 started at 10:54
+
+2022-03-29 10:54:41,815 INFO updateTextBox - Condtions: 
+
+2022-03-29 10:54:41,828 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   2  |   4.74   |   24.94  |    95   |  30  |     1.92    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 10:54:41,832 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 11:08:26,958 INFO updateTextBox - Method finished at 11:8
+
+2022-03-29 11:08:26,967 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 11:08:28,156 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 11:08:28,176 INFO updateTextBox - Responce vars generated. Experiment 2 finished. Results: 
+
+2022-03-29 11:08:28,373 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   2  |   4.74   |   24.94  |    95   |  30  |     1.92    |    2   |    1.5   |    1   |    2    |  1 | -0.46783 |       -1.9459      |       1.8442       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2022-03-29 11:08:28,377 INFO updateTextBox - Experiment 3 started at 11:8
+
+2022-03-29 11:08:28,381 INFO updateTextBox - Condtions: 
+
+2022-03-29 11:08:28,394 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   3  |   8.96   |   29.87  |    95   |  30  |     2.98    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 11:08:28,396 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 11:27:29,505 INFO updateTextBox - Method finished at 11:27
+
+2022-03-29 11:27:29,516 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 11:27:31,407 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 11:27:31,426 INFO updateTextBox - Responce vars generated. Experiment 3 finished. Results: 
+
+2022-03-29 11:27:31,706 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   3  |   8.96   |   29.87  |    95   |  30  |     2.98    |    2   |    1.5   |    1   |    2    |  1 | -0.70884 |       -1.9459      |        2.186       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2022-03-29 11:27:31,710 INFO updateTextBox - Experiment 4 started at 11:27
+
+2022-03-29 11:27:31,714 INFO updateTextBox - Condtions: 
+
+2022-03-29 11:27:31,728 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   4  |   2.91   |   44.42  |    95   |  30  |     4.85    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 11:27:31,734 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 11:42:22,115 INFO updateTextBox - Method finished at 11:42
+
+2022-03-29 11:42:22,125 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 11:42:23,484 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 11:42:23,502 INFO updateTextBox - Responce vars generated. Experiment 4 finished. Results: 
+
+2022-03-29 11:42:23,853 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   4  |   2.91   |   44.42  |    95   |  30  |     4.85    |    2   |    1.5   |    1   |    2    |  1 | 0.35792 |       -1.9459      |       1.9763       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 11:42:23,858 INFO updateTextBox - Experiment 5 started at 11:42
+
+2022-03-29 11:42:23,861 INFO updateTextBox - Condtions: 
+
+2022-03-29 11:42:23,876 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   5  |   5.44   |   13.41  |    95   |  30  |     5.92    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 11:42:23,879 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 12:00:49,951 INFO updateTextBox - Method finished at 12:0
+
+2022-03-29 12:00:49,965 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 12:00:51,788 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 12:00:51,808 INFO updateTextBox - Responce vars generated. Experiment 5 finished. Results: 
+
+2022-03-29 12:00:52,287 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   5  |   5.44   |   13.41  |    95   |  30  |     5.92    |    2   |    1.5   |    1   |    2    |  1 | 0.85092 |       -1.9459      |       2.4039       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 12:00:52,292 INFO updateTextBox - Experiment 6 started at 12:0
+
+2022-03-29 12:00:52,294 INFO updateTextBox - Condtions: 
+
+2022-03-29 12:00:52,307 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   6  |   1.47   |   36.48  |    95   |  30  |     9.34    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 12:00:52,310 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 12:18:48,331 INFO updateTextBox - Method finished at 12:18
+
+2022-03-29 12:18:48,341 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 12:18:50,123 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 12:18:50,141 INFO updateTextBox - Responce vars generated. Experiment 6 finished. Results: 
+
+2022-03-29 12:18:50,648 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   6  |   1.47   |   36.48  |    95   |  30  |     9.34    |    2   |    1.5   |    1   |    2    |  1 | -0.44377 |       -1.9459      |       2.4387       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2022-03-29 12:18:50,651 INFO updateTextBox - Experiment 7 started at 12:18
+
+2022-03-29 12:18:50,654 INFO updateTextBox - Condtions: 
+
+2022-03-29 12:18:50,667 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+|   7  |   7.27   |   58.09  |    95   |  30  |     7.45    |    2   |    1.5   |    1   |    2    |  1 |   N/A   |         N/A        |         N/A        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|
+
+2022-03-29 12:18:50,670 INFO updateTextBox - Waiting for method to finish...
+
+
+2022-03-29 12:40:37,149 INFO updateTextBox - Method finished at 12:40
+
+2022-03-29 12:40:37,159 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 12:40:39,455 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 12:40:39,476 INFO updateTextBox - Responce vars generated. Experiment 7 finished. Results: 
+
+2022-03-29 12:40:40,087 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+|   7  |   7.27   |   58.09  |    95   |  30  |     7.45    |    2   |    1.5   |    1   |    2    |  1 | -0.24306 |       -1.7918      |       1.1727       |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|
+
+2022-03-29 12:40:40,091 INFO updateTextBox - ***INIT CONDTIONS FINISHED AT 12:40***
+2022-03-29 12:40:40,104 INFO updateTextBox - 
+HPLC started
+
+
+2022-03-29 12:40:40,109 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2022-03-29 12:40:40,133 ERROR StartOptButtonPushed - Error processing variables for optimisation.
+2022-03-29 13:03:01,464 DEBUG LoadVarsButtonPushed - File successfuly loaded.
+2022-03-29 13:03:18,681 DEBUG ReprocessButtonPushed - Variables sucessfully reprocessed
+2022-03-29 13:03:18,686 INFO updateTextBox - Variables loaded!
+
+
+2022-03-29 13:03:18,690 INFO updateTextBox - Conditions:
+
+
+2022-03-29 13:03:18,717 INFO updateTextBox - 
+|----------------------|-------------|-------|----------|
+| DiscreteOrContinuous |     Name    |  Data | Optimise |
+|----------------------|-------------|-------|----------|
+|           C          |   GradTime  | 1, 10 |     1    |
+|           C          |   InitalOM  | 5, 60 |     1    |
+|           C          |   FinalOM   |   95  |     0    |
+|           C          |     Temp    |   30  |     0    |
+|           C          | IsoHoldTime | 0, 10 |     1    |
+|           C          |    InjVol   |   2   |     0    |
+|           C          |   FlowRate  |  1.5  |     0    |
+|           D          |    Column   |   1   |     0    |
+|           D          |   OMPhase   |   2   |     0    |
+|           D          |      Ph     |   1   |     0    |
+|----------------------|-------------|-------|----------|
+
+2022-03-29 13:03:18,721 INFO updateTextBox -  
+
+
+2022-03-29 13:03:18,724 INFO updateTextBox - Inital number of experiments: 7
+
+2022-03-29 13:03:18,727 INFO updateTextBox - Equilbration time: 180
+
+2022-03-29 13:03:18,731 INFO updateTextBox - HPLC directory: C:\Users\Public\Documents\ChemStation\1\Data\cmtmdHPLC024
+
+2022-03-29 13:03:18,735 INFO updateTextBox - Sample Postion: P1-A1
+
+2022-03-29 13:03:18,738 INFO updateTextBox - Optimisation algorithm selected: TS-EMO
+
+2022-03-29 13:03:18,741 INFO updateTextBox - Responce functions: RsCrit2, Maximisepeaknumber, Minimisemethodtime
+
+2022-03-29 13:03:18,745 INFO updateTextBox - 
+Experiments: 
+
+
+2022-03-29 13:03:18,882 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|   1  |   8.24   |   11.52  |    95   |  30  |     0.05    |    2   |    1.5   |    1   |    2    |  1 |  0.30711 |       -1.9459      |        1.927       |      0.41075      |         0.22089        |
+|   2  |   4.74   |   24.94  |    95   |  30  |     1.92    |    2   |    1.5   |    1   |    2    |  1 | -0.46783 |       -1.9459      |       1.8442       |      0.27834      |        0.089261        |
+|   3  |   8.96   |   29.87  |    95   |  30  |     2.98    |    2   |    1.5   |    1   |    2    |  1 | -0.70884 |       -1.9459      |        2.186       |      0.22849      |        0.040452        |
+|   4  |   2.91   |   44.42  |    95   |  30  |     4.85    |    2   |    1.5   |    1   |    2    |  1 |  0.35792 |       -1.9459      |       1.9763       |      0.41829      |         0.22793        |
+|   5  |   5.44   |   13.41  |    95   |  30  |     5.92    |    2   |    1.5   |    1   |    2    |  1 |  0.85092 |       -1.9459      |       2.4039       |      0.48214      |         0.28625        |
+|   6  |   1.47   |   36.48  |    95   |  30  |     9.34    |    2   |    1.5   |    1   |    2    |  1 | -0.44377 |       -1.9459      |       2.4387       |      0.31475      |         0.1183         |
+|   7  |   7.27   |   58.09  |    95   |  30  |     7.45    |    2   |    1.5   |    1   |    2    |  1 | -0.24306 |       -1.7918      |       1.1727       |      0.36805      |         0.20913        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 13:04:46,102 INFO updateTextBox - 
+HPLC started
+
+
+2022-03-29 13:04:46,130 INFO updateTextBox - 
+***OPTIMISATION STARTED***
+
+
+2022-03-29 13:19:23,997 INFO updateTextBox - Method finished at 13:19
+
+2022-03-29 13:19:24,007 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 13:19:25,416 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 13:19:25,453 INFO updateTextBox - Responce vars generated. Experiment 8 finished. Results:
+
+2022-03-29 13:19:25,470 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|   8  |  3.0565  |  30.6136 |    95   |  30  |    4.3821   |    2   |    1.5   |    1   |    2    |  1 | -0.71065 |       -1.9459      |       2.0382       |      0.22063      |        0.034896        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 13:37:18,836 INFO updateTextBox - Method finished at 13:37
+
+2022-03-29 13:37:18,847 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 13:37:20,656 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 13:37:20,694 INFO updateTextBox - Responce vars generated. Experiment 9 finished. Results:
+
+2022-03-29 13:37:20,710 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|   9  |  2.0991  |  29.136  |    95   |  30  |    8.5705   |    2   |    1.5   |    1   |    2    |  1 | -0.68425 |       -1.9459      |       2.4257       |      0.25031      |        0.054065        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 13:49:33,524 INFO updateTextBox - Method finished at 13:49
+
+2022-03-29 13:49:33,534 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 13:49:34,663 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 13:49:34,703 INFO updateTextBox - Responce vars generated. Experiment 10 finished. Results:
+
+2022-03-29 13:49:34,720 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  10  |  4.5406  |  27.0935 |    95   |  30  |   0.42373   |    2   |    1.5   |    1   |    2    |  1 | -0.50817 |       -1.9459      |       1.5379       |      0.25851      |        0.071821        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 14:14:39,563 INFO updateTextBox - Method finished at 14:14
+
+2022-03-29 14:14:39,574 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 14:14:42,327 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 14:14:42,372 INFO updateTextBox - Responce vars generated. Experiment 11 finished. Results:
+
+2022-03-29 14:14:42,389 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  11  |  9.7723  |  27.719  |    95   |  30  |    8.0747   |    2   |    1.5   |    1   |    2    |  1 | -0.63593 |       -1.9459      |       2.6662       |      0.26916      |         0.08207        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 14:26:45,265 INFO updateTextBox - Method finished at 14:26
+
+2022-03-29 14:26:45,280 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 14:26:46,428 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 14:26:46,475 INFO updateTextBox - Responce vars generated. Experiment 12 finished. Results:
+
+2022-03-29 14:26:46,491 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  12  |  4.8859  |  30.094  |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | -0.5705 |       -1.9459      |       1.4585       |      0.23629      |        0.054171        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 14:41:39,700 INFO updateTextBox - Method finished at 14:41
+
+2022-03-29 14:41:39,710 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 14:41:41,236 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 14:41:41,285 INFO updateTextBox - Responce vars generated. Experiment 13 finished. Results:
+
+2022-03-29 14:41:41,302 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  13  |  6.8414  |  47.935  |    95   |  30  |   0.79834   |    2   |    1.5   |    1   |    2    |  1 | 0.93027 |       -1.9459      |       1.4579       |      0.44248      |         0.26037        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 14:51:29,276 INFO updateTextBox - Method finished at 14:51
+
+2022-03-29 14:51:29,284 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 14:51:30,168 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 14:51:30,221 INFO updateTextBox - Responce vars generated. Experiment 14 finished. Results:
+
+2022-03-29 14:51:30,238 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  14  |  1.9143  |  28.2274 |    95   |  30  |   0.62113   |    2   |    1.5   |    1   |    2    |  1 | -0.62312 |       -1.9459      |       1.2019       |      0.21705      |        0.035409        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:04:33,223 INFO updateTextBox - Method finished at 15:4
+
+2022-03-29 15:04:33,233 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:04:34,524 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:04:34,582 INFO updateTextBox - Responce vars generated. Experiment 15 finished. Results:
+
+2022-03-29 15:04:34,598 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  15  |     1    |  5.0836  |    95   |  30  |    4.7682   |    2   |    1.5   |    1   |    2    |  1 |  -0.567 |       -1.7918      |       1.9439       |      0.31075      |         0.15302        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:13:52,241 INFO updateTextBox - Method finished at 15:13
+
+2022-03-29 15:13:52,251 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:13:53,096 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:13:53,156 INFO updateTextBox - Responce vars generated. Experiment 16 finished. Results:
+
+2022-03-29 15:13:53,172 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  16  |  1.3216  |  8.0153  |    95   |  30  |   0.72073   |    2   |    1.5   |    1   |    2    |  1 | 0.41312 |       -1.9459      |       1.1487       |      0.39665      |         0.2151         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:22:35,733 INFO updateTextBox - Method finished at 15:22
+
+2022-03-29 15:22:35,744 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:22:36,526 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:22:36,589 INFO updateTextBox - Responce vars generated. Experiment 17 finished. Results:
+
+2022-03-29 15:22:36,605 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  17  |     1    |  41.462  |    95   |  30  |   0.43721   |    2   |    1.5   |    1   |    2    |  1 | 0.041854 |       -1.9459      |       0.88086      |      0.34831      |         0.16712        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:31:59,812 INFO updateTextBox - Method finished at 15:31
+
+2022-03-29 15:31:59,821 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:32:00,705 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:32:00,773 INFO updateTextBox - Responce vars generated. Experiment 18 finished. Results:
+
+2022-03-29 15:32:00,789 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  18  |     1    |  38.9782 |    95   |  30  |    1.1497   |    2   |    1.5   |    1   |    2    |  1 | -0.19164 |       -1.9459      |       1.1399       |      0.31407      |         0.13253        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:40:08,510 INFO updateTextBox - Method finished at 15:40
+
+2022-03-29 15:40:08,521 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:40:09,275 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:40:09,346 INFO updateTextBox - Responce vars generated. Experiment 19 finished. Results:
+
+2022-03-29 15:40:09,362 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  19  |     1    |  18.1634 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | 0.37337 |       -1.9459      |       0.76695      |      0.38759      |         0.20653        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:48:27,275 INFO updateTextBox - Method finished at 15:48
+
+2022-03-29 15:48:27,286 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:48:28,088 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:48:28,164 INFO updateTextBox - Responce vars generated. Experiment 20 finished. Results:
+
+2022-03-29 15:48:28,180 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  20  |  1.1809  |  33.8873 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | -0.36276 |       -1.9459      |       0.77297      |      0.27532      |        0.094253        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 15:56:36,317 INFO updateTextBox - Method finished at 15:56
+
+2022-03-29 15:56:36,326 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 15:56:37,114 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 15:56:37,194 INFO updateTextBox - Responce vars generated. Experiment 21 finished. Results:
+
+2022-03-29 15:56:37,210 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2  | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+|  21  |     1    |  30.7807 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | -0.043566 |       -1.9459      |       0.72702      |      0.33375      |         0.15272        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 16:20:32,494 INFO updateTextBox - Method finished at 16:20
+
+2022-03-29 16:20:32,505 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 16:20:33,466 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 16:20:33,558 INFO updateTextBox - Responce vars generated. Experiment 22 finished. Results:
+
+2022-03-29 16:20:33,574 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  22  |  1.1854  |  32.6173 |    95   |  30  |    1.0749   |    2   |    1.5   |    1   |    2    |  1 | -0.73097 |       -1.9459      |        1.175       |      0.18475      |        0.014719        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 16:38:38,418 INFO updateTextBox - Method finished at 16:38
+
+2022-03-29 16:38:38,428 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 16:38:40,518 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 16:38:40,605 INFO updateTextBox - Responce vars generated. Experiment 23 finished. Results:
+
+2022-03-29 16:38:40,622 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  23  |  7.3486  |  26.5249 |    95   |  30  |    3.5001   |    2   |    1.5   |    1   |    2    |  1 | -0.58626 |       -1.9459      |       2.2026       |       0.256       |        0.071542        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 16:47:38,794 INFO updateTextBox - Method finished at 16:47
+
+2022-03-29 16:47:38,814 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 16:47:39,734 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 16:47:39,823 INFO updateTextBox - Responce vars generated. Experiment 24 finished. Results:
+
+2022-03-29 16:47:39,840 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  24  |  1.5729  |  23.8058 |    95   |  30  |   0.11748   |    2   |    1.5   |    1   |    2    |  1 | 0.062427 |       -1.9459      |       0.96818      |      0.35235      |         0.17105        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 17:00:13,417 INFO updateTextBox - Method finished at 17:0
+
+2022-03-29 17:00:13,427 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 17:00:14,854 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 17:00:14,948 INFO updateTextBox - Responce vars generated. Experiment 25 finished. Results:
+
+2022-03-29 17:00:14,965 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  25  |  5.4119  |  27.8588 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | -0.52581 |       -1.9459      |       1.5356       |      0.24963      |        0.067335        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 17:21:04,759 INFO updateTextBox - Method finished at 17:21
+
+2022-03-29 17:21:04,770 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 17:21:07,254 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 17:21:07,351 INFO updateTextBox - Responce vars generated. Experiment 26 finished. Results:
+
+2022-03-29 17:21:07,368 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  26  |  6.3739  |  32.644  |    95   |  30  |    7.2232   |    2   |    1.5   |    1   |    2    |  1 | -0.74445 |       -1.7918      |       2.4671       |      0.28361      |         0.1393         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 17:43:02,542 INFO updateTextBox - Method finished at 17:43
+
+2022-03-29 17:43:02,552 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 17:43:05,168 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 17:43:05,286 INFO updateTextBox - Responce vars generated. Experiment 27 finished. Results:
+
+2022-03-29 17:43:05,305 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  27  |  9.4118  |  55.6113 |    95   |  30  |    5.2827   |    2   |    1.5   |    1   |    2    |  1 | -0.31353 |       -1.7918      |       1.3592       |      0.35438      |         0.19817        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 17:59:34,788 INFO updateTextBox - Method finished at 17:59
+
+2022-03-29 17:59:34,808 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 17:59:37,275 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 17:59:37,383 INFO updateTextBox - Responce vars generated. Experiment 28 finished. Results:
+
+2022-03-29 17:59:37,400 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  28  |  2.7941  |  54.4262 |    95   |  30  |    6.4355   |    2   |    1.5   |    1   |    2    |  1 | -0.3174 |       -1.7918      |       1.4439       |      0.35532      |         0.19894        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 18:10:11,151 INFO updateTextBox - Method finished at 18:10
+
+2022-03-29 18:10:11,161 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 18:10:12,373 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 18:10:12,480 INFO updateTextBox - Responce vars generated. Experiment 29 finished. Results:
+
+2022-03-29 18:10:12,496 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  29  |  1.5048  |  26.8322 |    95   |  30  |    1.7853   |    2   |    1.5   |    1   |    2    |  1 | -0.60967 |       -1.9459      |       1.4406       |      0.22531      |        0.043224        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 18:18:35,920 INFO updateTextBox - Method finished at 18:18
+
+2022-03-29 18:18:35,929 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 18:18:36,877 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 18:18:36,991 INFO updateTextBox - Responce vars generated. Experiment 30 finished. Results:
+
+2022-03-29 18:18:37,009 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  30  |  1.0155  |  56.3093 |    95   |  30  |   0.13411   |    2   |    1.5   |    1   |    2    |  1 | -0.29833 |       -1.7918      |       0.65253      |      0.34754      |         0.1923         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 18:32:31,198 INFO updateTextBox - Method finished at 18:32
+
+2022-03-29 18:32:31,209 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 18:32:32,856 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 18:32:32,971 INFO updateTextBox - Responce vars generated. Experiment 31 finished. Results:
+
+2022-03-29 18:32:32,988 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  31  |     1    |  38.0764 |    95   |  30  |    5.6519   |    2   |    1.5   |    1   |    2    |  1 | -0.27935 |       -1.9459      |       2.0203       |      0.31965      |         0.13593        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 18:41:11,334 INFO updateTextBox - Method finished at 18:41
+
+2022-03-29 18:41:11,344 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 18:41:12,365 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 18:41:12,484 INFO updateTextBox - Responce vars generated. Experiment 32 finished. Results:
+
+2022-03-29 18:41:12,500 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  32  |  1.0444  |  34.5491 |    95   |  30  |   0.33859   |    2   |    1.5   |    1   |    2    |  1 | -0.61233 |       -1.9459      |       0.87781      |      0.21541      |        0.034225        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 18:52:51,189 INFO updateTextBox - Method finished at 18:52
+
+2022-03-29 18:52:51,199 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 18:52:52,610 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 18:52:52,730 INFO updateTextBox - Responce vars generated. Experiment 33 finished. Results:
+
+2022-03-29 18:52:52,748 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  33  |  3.9219  |  29.3128 |    95   |  30  |   0.44132   |    2   |    1.5   |    1   |    2    |  1 | -0.6615 |       -1.9459      |       1.4569       |      0.21097      |        0.028857        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 19:02:01,236 INFO updateTextBox - Method finished at 19:2
+
+2022-03-29 19:02:01,245 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 19:02:02,367 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 19:02:02,493 INFO updateTextBox - Responce vars generated. Experiment 34 finished. Results:
+
+2022-03-29 19:02:02,510 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  34  |     1    |  35.158  |    95   |  30  |   0.87927   |    2   |    1.5   |    1   |    2    |  1 | -0.56568 |       -1.9459      |       1.0318       |      0.23004      |        0.048658        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 19:15:01,427 INFO updateTextBox - Method finished at 19:15
+
+2022-03-29 19:15:01,437 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 19:15:03,054 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 19:15:03,184 INFO updateTextBox - Responce vars generated. Experiment 35 finished. Results:
+
+2022-03-29 19:15:03,201 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  35  |     1    |  26.2205 |    95   |  30  |    4.7228   |    2   |    1.5   |    1   |    2    |  1 | -0.58558 |       -1.9459      |       1.9175       |      0.24488      |        0.061523        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 19:33:13,316 INFO updateTextBox - Method finished at 19:33
+
+2022-03-29 19:33:13,326 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 19:33:15,634 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 19:33:15,768 INFO updateTextBox - Responce vars generated. Experiment 36 finished. Results:
+
+2022-03-29 19:33:15,785 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  36  |    10    |  43.5668 |    95   |  30  |   0.89626   |    2   |    1.5   |    1   |    2    |  1 | 0.26859 |       -1.9459      |        1.706       |      0.39308      |         0.21036        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 19:42:34,503 INFO updateTextBox - Method finished at 19:42
+
+2022-03-29 19:42:34,512 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 19:42:35,704 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 19:42:35,841 INFO updateTextBox - Responce vars generated. Experiment 37 finished. Results:
+
+2022-03-29 19:42:35,858 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  37  |  1.6643  |  36.0263 |    95   |  30  |   0.39732   |    2   |    1.5   |    1   |    2    |  1 | -0.47856 |       -1.9459      |       1.0475       |       0.2523      |        0.070895        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 19:52:19,795 INFO updateTextBox - Method finished at 19:52
+
+2022-03-29 19:52:19,805 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 19:52:21,056 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 19:52:21,195 INFO updateTextBox - Responce vars generated. Experiment 38 finished. Results:
+
+2022-03-29 19:52:21,212 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  38  |     1    |  21.0823 |    95   |  30  |    1.4647   |    2   |    1.5   |    1   |    2    |  1 | 0.14367 |       -1.9459      |       1.2796       |      0.36819      |         0.18642        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 20:05:25,492 INFO updateTextBox - Method finished at 20:5
+
+2022-03-29 20:05:25,502 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 20:05:27,198 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 20:05:27,356 INFO updateTextBox - Responce vars generated. Experiment 39 finished. Results:
+
+2022-03-29 20:05:27,374 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  39  |  1.0635  |  29.1278 |    95   |  30  |    4.7564   |    2   |    1.5   |    1   |    2    |  1 | -0.69974 |       -1.9459      |       1.9245       |      0.21254      |        0.031145        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 20:16:46,540 INFO updateTextBox - Method finished at 20:16
+
+2022-03-29 20:16:46,549 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 20:16:48,058 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 20:16:48,203 INFO updateTextBox - Responce vars generated. Experiment 40 finished. Results:
+
+2022-03-29 20:16:48,221 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  40  |  2.6382  |  34.7925 |    95   |  30  |    1.4108   |    2   |    1.5   |    1   |    2    |  1 | -0.5978 |       -1.9459      |       1.4865       |      0.22956      |        0.047383        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 20:29:22,542 INFO updateTextBox - Method finished at 20:29
+
+2022-03-29 20:29:22,552 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 20:29:24,224 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 20:29:24,376 INFO updateTextBox - Responce vars generated. Experiment 41 finished. Results:
+
+2022-03-29 20:29:24,405 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  41  |  1.4219  |  30.1671 |    95   |  30  |    3.8563   |    2   |    1.5   |    1   |    2    |  1 | -0.73288 |       -1.9459      |       1.8222       |      0.19901      |        0.028117        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 20:38:58,516 INFO updateTextBox - Method finished at 20:38
+
+2022-03-29 20:38:58,527 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 20:38:59,813 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 20:38:59,968 INFO updateTextBox - Responce vars generated. Experiment 42 finished. Results:
+
+2022-03-29 20:38:59,985 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  42  |  1.1675  |  27.5994 |    95   |  30  |    1.118    |    2   |    1.5   |    1   |    2    |  1 | -0.64732 |       -1.9459      |       1.2012       |      0.21019      |        0.028547        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 20:49:44,187 INFO updateTextBox - Method finished at 20:49
+
+2022-03-29 20:49:44,196 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 20:49:45,651 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 20:49:45,810 INFO updateTextBox - Responce vars generated. Experiment 43 finished. Results:
+
+2022-03-29 20:49:45,828 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  43  |     1    |  19.316  |    95   |  30  |    2.4728   |    2   |    1.5   |    1   |    2    |  1 | 0.38483 |       -1.9459      |       1.5297       |      0.40118      |         0.2189         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 20:59:50,241 INFO updateTextBox - Method finished at 20:59
+
+2022-03-29 20:59:50,251 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 20:59:51,648 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 20:59:51,812 INFO updateTextBox - Responce vars generated. Experiment 44 finished. Results:
+
+2022-03-29 20:59:51,830 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  44  |     1    |  28.0164 |    95   |  30  |    1.7888   |    2   |    1.5   |    1   |    2    |  1 | -0.65744 |       -1.9459      |       1.3539       |      0.21003      |        0.028124        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 21:08:35,931 INFO updateTextBox - Method finished at 21:8
+
+2022-03-29 21:08:35,941 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 21:08:37,179 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 21:08:37,349 INFO updateTextBox - Responce vars generated. Experiment 45 finished. Results:
+
+2022-03-29 21:08:37,367 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  45  |     1    |  36.8179 |    95   |  30  |   0.47125   |    2   |    1.5   |    1   |    2    |  1 | -0.40887 |       -1.9459      |       0.91081      |      0.26676      |        0.085535        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 21:16:46,198 INFO updateTextBox - Method finished at 21:16
+
+2022-03-29 21:16:46,208 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 21:16:47,412 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 21:16:47,584 INFO updateTextBox - Responce vars generated. Experiment 46 finished. Results:
+
+2022-03-29 21:16:47,602 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  46  |     1    |   25.14  |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 |  0.2465 |       -1.9459      |       0.74809      |      0.37342      |         0.19238        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 21:26:26,738 INFO updateTextBox - Method finished at 21:26
+
+2022-03-29 21:26:26,748 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 21:26:28,172 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 21:26:28,345 INFO updateTextBox - Responce vars generated. Experiment 47 finished. Results:
+
+2022-03-29 21:26:28,363 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  47  |  1.7797  |  25.9908 |    95   |  30  |    0.6493   |    2   |    1.5   |    1   |    2    |  1 | -0.37587 |       -1.9459      |       1.1903       |      0.27813      |        0.096507        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 21:36:42,812 INFO updateTextBox - Method finished at 21:36
+
+2022-03-29 21:36:42,822 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 21:36:44,319 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 21:36:44,507 INFO updateTextBox - Responce vars generated. Experiment 48 finished. Results:
+
+2022-03-29 21:36:44,525 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  48  |  1.9311  |  29.6662 |    95   |  30  |    1.0872   |    2   |    1.5   |    1   |    2    |  1 | -0.71131 |       -1.9459      |        1.331       |      0.19357      |        0.017204        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 21:46:54,073 INFO updateTextBox - Method finished at 21:46
+
+2022-03-29 21:46:54,084 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 21:46:55,573 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 21:46:55,751 INFO updateTextBox - Responce vars generated. Experiment 49 finished. Results:
+
+2022-03-29 21:46:55,769 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  49  |   2.065  |  32.5994 |    95   |  30  |   0.85392   |    2   |    1.5   |    1   |    2    |  1 | -0.74539 |       -1.9459      |       1.2787       |      0.18201      |        0.016327        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 21:56:30,104 INFO updateTextBox - Method finished at 21:56
+
+2022-03-29 21:56:30,125 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 21:56:31,553 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 21:56:31,736 INFO updateTextBox - Responce vars generated. Experiment 50 finished. Results:
+
+2022-03-29 21:56:31,754 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  50  |     1    |  37.9231 |    95   |  30  |    1.3015   |    2   |    1.5   |    1   |    2    |  1 | -0.30142 |       -1.9459      |       1.1903       |       0.2938      |         0.11218        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 22:08:56,236 INFO updateTextBox - Method finished at 22:8
+
+2022-03-29 22:08:56,247 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 22:08:58,032 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 22:08:58,222 INFO updateTextBox - Responce vars generated. Experiment 51 finished. Results:
+
+2022-03-29 22:08:58,240 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2  | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+|  51  |  1.4135  |  40.0379 |    95   |  30  |    3.6987   |    2   |    1.5   |    1   |    2    |  1 | -0.094017 |       -1.9459      |        1.765       |      0.34465      |         0.16177        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 22:18:37,474 INFO updateTextBox - Method finished at 22:18
+
+2022-03-29 22:18:37,484 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 22:18:38,953 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 22:18:39,149 INFO updateTextBox - Responce vars generated. Experiment 52 finished. Results:
+
+2022-03-29 22:18:39,168 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  52  |     1    |  44.1493 |    95   |  30  |    1.395    |    2   |    1.5   |    1   |    2    |  1 | 0.33319 |       -1.9459      |       1.1951       |      0.38915      |         0.20752        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 22:29:23,926 INFO updateTextBox - Method finished at 22:29
+
+2022-03-29 22:29:23,936 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 22:29:25,559 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 22:29:25,754 INFO updateTextBox - Responce vars generated. Experiment 53 finished. Results:
+
+2022-03-29 22:29:25,772 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  53  |  2.8849  |  22.6249 |    95   |  30  |   0.60386   |    2   |    1.5   |    1   |    2    |  1 | -0.12361 |       -1.9459      |       1.3891       |      0.33047      |         0.1485         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 22:38:20,377 INFO updateTextBox - Method finished at 22:38
+
+2022-03-29 22:38:20,387 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 22:38:21,793 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 22:38:21,993 INFO updateTextBox - Responce vars generated. Experiment 54 finished. Results:
+
+2022-03-29 22:38:22,011 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  54  |  1.1594  |  35.8043 |    95   |  30  |   0.45372   |    2   |    1.5   |    1   |    2    |  1 | -0.50826 |       -1.9459      |       0.94827      |      0.24365      |        0.062373        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 22:46:51,229 INFO updateTextBox - Method finished at 22:46
+
+2022-03-29 22:46:51,240 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 22:46:52,603 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 22:46:52,803 INFO updateTextBox - Responce vars generated. Experiment 55 finished. Results:
+
+2022-03-29 22:46:52,821 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  55  |     1    |  19.6194 |    95   |  30  |    0.1842   |    2   |    1.5   |    1   |    2    |  1 | 0.42455 |       -1.9459      |       0.84461      |      0.39362      |         0.21247        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 22:55:37,062 INFO updateTextBox - Method finished at 22:55
+
+2022-03-29 22:55:37,087 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 22:55:38,497 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 22:55:38,704 INFO updateTextBox - Responce vars generated. Experiment 56 finished. Results:
+
+2022-03-29 22:55:38,723 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  56  |  1.0449  |  33.3749 |    95   |  30  |   0.45865   |    2   |    1.5   |    1   |    2    |  1 | -0.72731 |       -1.9459      |       0.93034      |      0.18235      |        0.011524        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 23:08:08,676 INFO updateTextBox - Method finished at 23:8
+
+2022-03-29 23:08:08,686 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 23:08:10,596 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 23:08:10,806 INFO updateTextBox - Responce vars generated. Experiment 57 finished. Results:
+
+2022-03-29 23:08:10,824 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  57  |  2.6906  |  29.3581 |    95   |  30  |    2.5108   |    2   |    1.5   |    1   |    2    |  1 | -0.69857 |       -1.9459      |       1.7335       |      0.20689      |        0.025729        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 23:20:05,625 INFO updateTextBox - Method finished at 23:20
+
+2022-03-29 23:20:05,636 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 23:20:07,486 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 23:20:07,702 INFO updateTextBox - Responce vars generated. Experiment 58 finished. Results:
+
+2022-03-29 23:20:07,721 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  58  |  3.8626  |  28.6231 |    95   |  30  |   0.82009   |    2   |    1.5   |    1   |    2    |  1 |  -0.684 |       -1.9459      |       1.5381       |      0.20619      |        0.023894        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 23:30:37,531 INFO updateTextBox - Method finished at 23:30
+
+2022-03-29 23:30:37,542 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 23:30:39,237 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 23:30:39,460 INFO updateTextBox - Responce vars generated. Experiment 59 finished. Results:
+
+2022-03-29 23:30:39,478 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  59  |     1    |  33.2519 |    95   |  30  |    2.2417   |    2   |    1.5   |    1   |    2    |  1 | -0.7493 |       -1.9459      |       1.4505       |      0.18416      |        0.019388        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 23:44:09,883 INFO updateTextBox - Method finished at 23:44
+
+2022-03-29 23:44:09,897 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 23:44:12,003 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 23:44:12,229 INFO updateTextBox - Responce vars generated. Experiment 60 finished. Results:
+
+2022-03-29 23:44:12,247 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  60  |  2.8631  |  28.4153 |    95   |  30  |    3.3496   |    2   |    1.5   |    1   |    2    |  1 | -0.68438 |       -1.9459      |        1.889       |      0.21594      |        0.032676        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-29 23:52:36,722 INFO updateTextBox - Method finished at 23:52
+
+2022-03-29 23:52:36,732 INFO updateTextBox - Reading method file ...
+
+
+2022-03-29 23:52:38,185 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-29 23:52:38,412 INFO updateTextBox - Responce vars generated. Experiment 61 finished. Results:
+
+2022-03-29 23:52:38,431 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  61  |  1.1011  |  31.6911 |    95   |  30  |   0.054633  |    2   |    1.5   |    1   |    2    |  1 | -0.24209 |       -1.9459      |       0.78249      |      0.29993      |         0.11885        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 00:02:13,293 INFO updateTextBox - Method finished at 0:2
+
+2022-03-30 00:02:13,303 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 00:02:14,923 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 00:02:15,148 INFO updateTextBox - Responce vars generated. Experiment 62 finished. Results:
+
+2022-03-30 00:02:15,167 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  62  |  2.1596  |  36.3833 |    95   |  30  |   0.12435   |    2   |    1.5   |    1   |    2    |  1 | -0.43759 |       -1.9459      |       1.0533       |       0.2621      |        0.080686        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 00:11:34,978 INFO updateTextBox - Method finished at 0:11
+
+2022-03-30 00:11:34,990 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 00:11:36,609 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 00:11:36,842 INFO updateTextBox - Responce vars generated. Experiment 63 finished. Results:
+
+2022-03-30 00:11:36,861 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  63  |     1    |  37.2874 |    95   |  30  |    1.0823   |    2   |    1.5   |    1   |    2    |  1 | -0.37061 |       -1.9459      |       1.1248       |      0.27822      |        0.096705        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 00:22:56,887 INFO updateTextBox - Method finished at 0:22
+
+2022-03-30 00:22:56,896 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 00:22:58,766 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 00:22:59,000 INFO updateTextBox - Responce vars generated. Experiment 64 finished. Results:
+
+2022-03-30 00:22:59,019 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  64  |  3.8074  |  33.1496 |    95   |  30  |   0.21468   |    2   |    1.5   |    1   |    2    |  1 | -0.72609 |       -1.9459      |       1.3586       |      0.18956      |        0.017685        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 00:35:09,430 INFO updateTextBox - Method finished at 0:35
+
+2022-03-30 00:35:09,441 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 00:35:11,439 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 00:35:11,675 INFO updateTextBox - Responce vars generated. Experiment 65 finished. Results:
+
+2022-03-30 00:35:11,693 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  65  |  3.5981  |  29.9902 |    95   |  30  |    1.2638   |    2   |    1.5   |    1   |    2    |  1 | -0.72238 |       -1.9459      |       1.5918       |      0.19585      |        0.022329        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 00:45:36,849 INFO updateTextBox - Method finished at 0:45
+
+2022-03-30 00:45:36,860 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 00:45:38,654 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 00:45:38,936 INFO updateTextBox - Responce vars generated. Experiment 66 finished. Results:
+
+2022-03-30 00:45:38,957 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  66  |  1.3049  |  32.3398 |    95   |  30  |    1.8227   |    2   |    1.5   |    1   |    2    |  1 | -0.75557 |       -1.9459      |       1.4026       |      0.18116      |         0.01848        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 00:54:33,996 INFO updateTextBox - Method finished at 0:54
+
+2022-03-30 00:54:34,006 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 00:54:35,667 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 00:54:35,921 INFO updateTextBox - Responce vars generated. Experiment 67 finished. Results:
+
+2022-03-30 00:54:35,940 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  67  |  1.0346  |  33.0153 |    95   |  30  |   0.63127   |    2   |    1.5   |    1   |    2    |  1 | -0.75067 |       -1.9459      |       0.99462      |      0.17586      |         0.01229        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 01:04:17,003 INFO updateTextBox - Method finished at 1:4
+
+2022-03-30 01:04:17,014 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 01:04:18,731 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 01:04:18,983 INFO updateTextBox - Responce vars generated. Experiment 68 finished. Results:
+
+2022-03-30 01:04:19,002 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  68  |     1    |  33.4933 |    95   |  30  |    1.4296   |    2   |    1.5   |    1   |    2    |  1 | -0.72756 |       -1.9459      |       1.2422       |      0.18695      |        0.015742        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 01:15:19,098 INFO updateTextBox - Method finished at 1:15
+
+2022-03-30 01:15:19,109 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 01:15:21,025 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 01:15:21,281 INFO updateTextBox - Responce vars generated. Experiment 69 finished. Results:
+
+2022-03-30 01:15:21,300 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  69  |  2.9795  |  23.4202 |    95   |  30  |   0.76518   |    2   |    1.5   |    1   |    2    |  1 | -0.23092 |       -1.9459      |        1.439       |      0.31228      |         0.1302         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 01:27:21,730 INFO updateTextBox - Method finished at 1:27
+
+2022-03-30 01:27:21,740 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 01:27:23,803 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 01:27:24,064 INFO updateTextBox - Responce vars generated. Experiment 70 finished. Results:
+
+2022-03-30 01:27:24,082 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  70  |  3.7023  |  33.2495 |    95   |  30  |    1.005    |    2   |    1.5   |    1   |    2    |  1 | -0.75567 |       -1.9459      |        1.529       |      0.18389      |        0.020972        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 01:42:30,170 INFO updateTextBox - Method finished at 1:42
+
+2022-03-30 01:42:30,180 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 01:42:32,635 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 01:42:32,905 INFO updateTextBox - Responce vars generated. Experiment 71 finished. Results:
+
+2022-03-30 01:42:32,925 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  71  |  3.4445  |  34.3963 |    95   |  30  |    4.4173   |    2   |    1.5   |    1   |    2    |  1 | -0.64787 |       -1.9459      |       2.0493       |      0.23239      |        0.048564        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 01:54:53,801 INFO updateTextBox - Method finished at 1:54
+
+2022-03-30 01:54:53,811 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 01:54:55,936 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 01:54:56,207 INFO updateTextBox - Responce vars generated. Experiment 72 finished. Results:
+
+2022-03-30 01:54:56,226 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  72  |  3.3862  |   32.83  |    95   |  30  |    1.6848   |    2   |    1.5   |    1   |    2    |  1 | -0.75822 |       -1.9459      |       1.6351       |      0.18568      |        0.023318        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 02:06:21,865 INFO updateTextBox - Method finished at 2:6
+
+2022-03-30 02:06:21,875 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 02:06:23,897 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 02:06:24,170 INFO updateTextBox - Responce vars generated. Experiment 73 finished. Results:
+
+2022-03-30 02:06:24,190 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  73  |  2.4675  |  29.0522 |    95   |  30  |    1.6457   |    2   |    1.5   |    1   |    2    |  1 | -0.70097 |       -1.9459      |       1.5431       |      0.20122      |        0.021268        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 02:20:00,102 INFO updateTextBox - Method finished at 2:20
+
+2022-03-30 02:20:00,113 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 02:20:02,427 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 02:20:02,705 INFO updateTextBox - Responce vars generated. Experiment 74 finished. Results:
+
+2022-03-30 02:20:02,725 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  74  |  4.2439  |  36.2368 |    95   |  30  |    2.106    |    2   |    1.5   |    1   |    2    |  1 | -0.46712 |       -1.9459      |       1.7563       |      0.26987      |        0.087012        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 02:28:37,916 INFO updateTextBox - Method finished at 2:28
+
+2022-03-30 02:28:37,936 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 02:28:39,679 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 02:28:39,959 INFO updateTextBox - Responce vars generated. Experiment 75 finished. Results:
+
+2022-03-30 02:28:39,980 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  75  |     1    |  15.3237 |    95   |  30  |   0.28653   |    2   |    1.5   |    1   |    2    |  1 | 0.45048 |       -1.9459      |       0.90111      |      0.39681      |         0.21559        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 02:40:45,880 INFO updateTextBox - Method finished at 2:40
+
+2022-03-30 02:40:45,891 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 02:40:48,039 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 02:40:48,336 INFO updateTextBox - Responce vars generated. Experiment 76 finished. Results:
+
+2022-03-30 02:40:48,357 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  76  |  1.4637  |  27.3786 |    95   |  30  |    3.3431   |    2   |    1.5   |    1   |    2    |  1 | -0.63037 |       -1.9459      |        1.747       |      0.22716      |        0.044334        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 02:53:19,424 INFO updateTextBox - Method finished at 2:53
+
+2022-03-30 02:53:19,435 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 02:53:21,657 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 02:53:21,950 INFO updateTextBox - Responce vars generated. Experiment 77 finished. Results:
+
+2022-03-30 02:53:21,970 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  77  |  1.2807  |  33.3368 |    95   |  30  |    3.9209   |    2   |    1.5   |    1   |    2    |  1 | -0.74961 |       -1.9459      |       1.8097       |      0.19335      |        0.027767        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 03:03:37,641 INFO updateTextBox - Method finished at 3:3
+
+2022-03-30 03:03:37,651 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 03:03:39,610 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 03:03:39,901 INFO updateTextBox - Responce vars generated. Experiment 78 finished. Results:
+
+2022-03-30 03:03:39,921 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  78  |  2.1055  |  32.4291 |    95   |  30  |   0.82717   |    2   |    1.5   |    1   |    2    |  1 | -0.74824 |       -1.9459      |        1.279       |      0.18111      |        0.016332        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 03:13:20,928 INFO updateTextBox - Method finished at 3:13
+
+2022-03-30 03:13:20,939 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 03:13:22,827 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 03:13:23,131 INFO updateTextBox - Responce vars generated. Experiment 79 finished. Results:
+
+2022-03-30 03:13:23,151 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  79  |  1.4873  |  33.0444 |    95   |  30  |   0.89576   |    2   |    1.5   |    1   |    2    |  1 | -0.75632 |       -1.9459      |        1.182       |      0.17687      |        0.014823        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 03:22:28,907 INFO updateTextBox - Method finished at 3:22
+
+2022-03-30 03:22:28,917 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 03:22:30,764 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 03:22:31,071 INFO updateTextBox - Responce vars generated. Experiment 80 finished. Results:
+
+2022-03-30 03:22:31,092 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  80  |     1    |  21.6342 |    95   |  30  |   0.77356   |    2   |    1.5   |    1   |    2    |  1 | 0.45211 |       -1.9459      |       1.0657       |      0.39918      |         0.21775        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 03:33:22,025 INFO updateTextBox - Method finished at 3:33
+
+2022-03-30 03:33:22,036 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 03:33:24,119 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 03:33:24,424 INFO updateTextBox - Responce vars generated. Experiment 81 finished. Results:
+
+2022-03-30 03:33:24,444 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  81  |  1.8139  |  33.1561 |    95   |  30  |    1.7265   |    2   |    1.5   |    1   |    2    |  1 | -0.7491 |       -1.9459      |       1.4566       |      0.18436      |        0.019507        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 03:46:35,704 INFO updateTextBox - Method finished at 3:46
+
+2022-03-30 03:46:35,715 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 03:46:38,123 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 03:46:38,435 INFO updateTextBox - Responce vars generated. Experiment 82 finished. Results:
+
+2022-03-30 03:46:38,455 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  82  |  2.0269  |  32.9921 |    95   |  30  |    3.8415   |    2   |    1.5   |    1   |    2    |  1 | -0.75813 |       -1.9459      |       1.8727       |      0.19264      |        0.029571        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 03:56:24,455 INFO updateTextBox - Method finished at 3:56
+
+2022-03-30 03:56:24,466 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 03:56:26,434 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 03:56:26,747 INFO updateTextBox - Responce vars generated. Experiment 83 finished. Results:
+
+2022-03-30 03:56:26,767 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  83  |     1    |  42.2505 |    95   |  30  |    1.4821   |    2   |    1.5   |    1   |    2    |  1 | 0.14014 |       -1.9459      |       1.2257       |      0.36678      |         0.1851         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 04:09:38,046 INFO updateTextBox - Method finished at 4:9
+
+2022-03-30 04:09:38,058 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 04:09:40,479 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 04:09:40,804 INFO updateTextBox - Responce vars generated. Experiment 84 finished. Results:
+
+2022-03-30 04:09:40,824 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  84  |  2.5759  |  34.9252 |    95   |  30  |    3.3405   |    2   |    1.5   |    1   |    2    |  1 | -0.60166 |       -1.9459      |       1.8361       |      0.23783      |         0.05474        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 04:19:51,866 INFO updateTextBox - Method finished at 4:19
+
+2022-03-30 04:19:51,876 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 04:19:53,943 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 04:19:54,265 INFO updateTextBox - Responce vars generated. Experiment 85 finished. Results:
+
+2022-03-30 04:19:54,287 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  85  |  2.6804  |  9.0246  |    95   |  30  |   0.20659   |    2   |    1.5   |    1   |    2    |  1 | 0.10948 |       -1.9459      |       1.2927       |      0.36391      |         0.18211        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 04:40:26,933 INFO updateTextBox - Method finished at 4:40
+
+2022-03-30 04:40:26,943 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 04:40:30,313 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 04:40:30,635 INFO updateTextBox - Responce vars generated. Experiment 86 finished. Results:
+
+2022-03-30 04:40:30,656 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  86  |  4.1154  |  23.0978 |    95   |  30  |    9.108    |    2   |    1.5   |    1   |    2    |  1 | -0.29419 |       -1.9459      |       2.5794       |      0.34515      |         0.15865        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 04:49:01,856 INFO updateTextBox - Method finished at 4:49
+
+2022-03-30 04:49:01,866 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 04:49:03,757 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 04:49:04,083 INFO updateTextBox - Responce vars generated. Experiment 87 finished. Results:
+
+2022-03-30 04:49:04,105 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  87  |     1    |  32.903  |    95   |  30  |   0.24929   |    2   |    1.5   |    1   |    2    |  1 | -0.61802 |       -1.9459      |       0.83406      |      0.21331      |        0.032178        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 05:00:15,408 INFO updateTextBox - Method finished at 5:0
+
+2022-03-30 05:00:15,418 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 05:00:17,661 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 05:00:17,992 INFO updateTextBox - Responce vars generated. Experiment 88 finished. Results:
+
+2022-03-30 05:00:18,013 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2  | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+|  88  |  2.8464  |  40.7873 |    95   |  30  |    1.0749   |    2   |    1.5   |    1   |    2    |  1 | -0.016688 |       -1.9459      |       1.3886       |      0.34768      |         0.1657         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|-----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 05:10:59,422 INFO updateTextBox - Method finished at 5:10
+
+2022-03-30 05:10:59,433 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 05:11:01,635 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 05:11:01,975 INFO updateTextBox - Responce vars generated. Experiment 89 finished. Results:
+
+2022-03-30 05:11:01,996 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  89  |  1.4681  |  9.1223  |    95   |  30  |    1.968    |    2   |    1.5   |    1   |    2    |  1 | 0.89322 |       -1.9459      |       1.5066       |      0.44133      |         0.25911        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 05:28:14,399 INFO updateTextBox - Method finished at 5:28
+
+2022-03-30 05:28:14,419 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 05:28:17,487 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 05:28:17,826 INFO updateTextBox - Responce vars generated. Experiment 90 finished. Results:
+
+2022-03-30 05:28:17,847 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  90  |    10    |  33.1814 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | -0.70421 |       -1.9459      |       1.8022       |      0.20721      |        0.027559        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 05:37:24,030 INFO updateTextBox - Method finished at 5:37
+
+2022-03-30 05:37:24,040 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 05:37:26,070 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 05:37:26,415 INFO updateTextBox - Responce vars generated. Experiment 91 finished. Results:
+
+2022-03-30 05:37:26,437 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  91  |  1.0239  |  45.5913 |    95   |  30  |   0.74258   |    2   |    1.5   |    1   |    2    |  1 |  0.4872 |       -1.9459      |       0.97819      |      0.40125      |         0.21994        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 05:46:07,915 INFO updateTextBox - Method finished at 5:46
+
+2022-03-30 05:46:07,928 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 05:46:09,913 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 05:46:10,260 INFO updateTextBox - Responce vars generated. Experiment 92 finished. Results:
+
+2022-03-30 05:46:10,281 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  92  |   1.094  |  43.1549 |    95   |  30  |   0.29861   |    2   |    1.5   |    1   |    2    |  1 | 0.23587 |       -1.9459      |       0.83542      |      0.37313      |          0.192         |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 05:59:42,211 INFO updateTextBox - Method finished at 5:59
+
+2022-03-30 05:59:42,222 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 05:59:44,837 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 05:59:45,184 INFO updateTextBox - Responce vars generated. Experiment 93 finished. Results:
+
+2022-03-30 05:59:45,205 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  93  |  1.8145  |  27.4514 |    95   |  30  |    4.4439   |    2   |    1.5   |    1   |    2    |  1 | -0.62841 |       -1.9459      |       1.9552       |      0.23441      |        0.050922        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 06:08:11,604 INFO updateTextBox - Method finished at 6:8
+
+2022-03-30 06:08:11,616 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 06:08:13,614 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 06:08:13,967 INFO updateTextBox - Responce vars generated. Experiment 94 finished. Results:
+
+2022-03-30 06:08:13,988 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph | RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+|  94  |   1.208  |  12.3115 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | 0.31002 |       -1.9459      |       0.85087      |      0.38178      |         0.20063        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|---------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 06:19:20,685 INFO updateTextBox - Method finished at 6:19
+
+2022-03-30 06:19:20,695 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 06:19:23,018 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 06:19:23,379 INFO updateTextBox - Responce vars generated. Experiment 95 finished. Results:
+
+2022-03-30 06:19:23,400 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  95  |     1    |  36.6799 |    95   |  30  |    2.8183   |    2   |    1.5   |    1   |    2    |  1 | -0.39301 |       -1.9459      |       1.5686       |      0.28197      |        0.099604        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 06:27:34,973 INFO updateTextBox - Method finished at 6:27
+
+2022-03-30 06:27:34,984 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 06:27:36,998 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 06:27:37,363 INFO updateTextBox - Responce vars generated. Experiment 96 finished. Results:
+
+2022-03-30 06:27:37,385 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  96  |     1    |  38.4735 |    95   |  30  |      0      |    2   |    1.5   |    1   |    2    |  1 | -0.19376 |       -1.9459      |       0.69815      |      0.30806      |         0.12707        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 06:37:59,434 INFO updateTextBox - Method finished at 6:37
+
+2022-03-30 06:37:59,445 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 06:38:01,721 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 06:38:02,092 INFO updateTextBox - Responce vars generated. Experiment 97 finished. Results:
+
+2022-03-30 06:38:02,113 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  97  |     1    |  29.584  |    95   |  30  |    2.0655   |    2   |    1.5   |    1   |    2    |  1 | -0.64465 |       -1.9459      |       1.4199       |      0.21505      |        0.033005        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 06:47:33,745 INFO updateTextBox - Method finished at 6:47
+
+2022-03-30 06:47:33,756 INFO updateTextBox - Reading method file ...
+
+
+2022-03-30 06:47:35,932 INFO updateTextBox - Calculating responce variables ...
+
+
+2022-03-30 06:47:36,304 INFO updateTextBox - Responce vars generated. Experiment 98 finished. Results:
+
+2022-03-30 06:47:36,326 INFO updateTextBox - 
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+| Exp. | GradTime | InitalOM | FinalOM | Temp | IsoHoldTime | InjVol | FlowRate | Column | OMPhase | Ph |  RsCrit2 | Maximisepeaknumber | Minimisemethodtime | CombinedFunction1 | WeightRespcmtmdHPLC018 |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+|  98  |     1    |  32.9452 |    95   |  30  |    1.2614   |    2   |    1.5   |    1   |    2    |  1 | -0.68614 |       -1.9459      |       1.1944       |      0.19873      |        0.017103        |
+|------|----------|----------|---------|------|-------------|--------|----------|--------|---------|----|----------|--------------------|--------------------|-------------------|------------------------|
+
+2022-03-30 07:27:58,087 ERROR StartOptButtonPushed - Experiment took too long to run (40 minutes)
+2022-03-30 10:59:18,500 DEBUG LoadVarsButtonPushed - File successfuly loaded.

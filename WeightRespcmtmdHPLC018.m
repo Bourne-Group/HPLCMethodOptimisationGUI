@@ -10,7 +10,7 @@
 % is good separation and 1 is poor separation. The optimisation algorithm
 % will try to minimise the result.
  
-function resp = responceCombFunc1(peaksData, voidTime, skew, currExp, wavelength)
+function resp = WeightRespcmtmdHPLC018(peaksData, voidTime, skew, currExp, wavelength)
     
     % Extracts the peaks table given the current experiment and wavelength.
     if length(wavelength) == 1

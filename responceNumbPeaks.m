@@ -19,7 +19,7 @@ function numbPeaks = responceNumbPeaks(peaksData, voidTime, skew, currExp, wavel
         
         % Want to maximise the number of peaks so take the negative value
         % of this as the algorithm will try to minimise.
-        numbPeaks = -size(peaks,1);
+        numbPeaks = -log(size(peaks,1));
     end
 end
 

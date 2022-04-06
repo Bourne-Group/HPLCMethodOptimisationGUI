@@ -35,7 +35,7 @@ function maxTime = responceMaxTime(peaksData, voidTime, skew, currExp, wavelengt
             
             % If there are peaks remaining, return the largest time value of
             % all the peaks.
-            maxTime = max(peaks(:,2));
+            maxTime = log(max(peaks(:,2)));
         end
     end
 end

@@ -27,10 +27,10 @@ function rsCrit = responceRscrit(peaksData, voidTime, skew, currExp, wavelength)
     end
     
     % If no peaks are detected, then set the critical resolution to the max
-    % value it can possibly be (2 in this instance). The smaller the
+    % value it can possibly be (0 in this instance). The smaller the
     % Rscrit, the more the peaks are separated.
     if isempty(peaks)
-        rsCrit = 2;
+        rsCrit = -log(0.01);
     else
         
         % Calculates the retention time by taking into account the void time
@@ -51,8 +51,11 @@ function rsCrit = responceRscrit(peaksData, voidTime, skew, currExp, wavelength)
             % solvent front, minus 2 for the Rscrit limit and then take the
             % negative of this value so the algorithm maximises for peak
             % distance.
-            rsCrit = -((2*rt/width) - 2);
-            
+            rsMin = ((2*rt/width) - 2);
+            if rsMin <= 0
+                rsMin = 0.01;
+            end
+            rsCrit = -log(rsMin);     
         else
  
             % Calculates the number of possible pair arrangements between each
@@ -77,11 +80,15 @@ function rsCrit = responceRscrit(peaksData, voidTime, skew, currExp, wavelength)
  
             end
             
-            % Subtract 2 so that the critical resolution is zero when it is
-            % at 2. Then take the negative. The more negative the Rscrit
-            % the greater the separation. Any value greater than 0 means
-            % peak overlap is occurring which is bad.
-            rsCrit = -(min(rS)-2);
+            % Make sure that the critical resoltion is not less than or
+            % equal to zero as otherwise the number will be equal to
+            % inifinity or an imginary number. If it is set it to a small
+            % value for rsMin.
+            rsMin = min(rS);
+            if rsMin <= 0
+                rsMin = 0.01;
+            end
+            rsCrit = -log(rsMin);
  
         end
     
