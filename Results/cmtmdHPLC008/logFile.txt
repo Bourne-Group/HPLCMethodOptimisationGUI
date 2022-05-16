@@ -1,5 +1,0 @@
-2021-05-19 08:34:24,131 DEBUG LoadVarsButtonPushed - File successfuly loaded.
-2021-05-19 08:36:12,944 DEBUG LoadVarsButtonPushed - File successfuly loaded.
-2021-05-19 08:40:17,902 DEBUG LoadVarsButtonPushed - File successfuly loaded.
-2021-07-06 10:12:41,569 DEBUG LoadVarsButtonPushed - File successfuly loaded.
-2021-08-02 09:36:32,230 DEBUG LoadVarsButtonPushed - File successfuly loaded.
