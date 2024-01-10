@@ -3,8 +3,11 @@ function peaksList = extractMaxWavelenInten(wavelengths, peaksData, currExp)
 
     peaksDataLimitsInd = (peaksData{currExp,3}>=min(wavelengths)) & (peaksData{currExp,3}<=max(wavelengths));
     peaksDataLimits = peaksData{currExp, 5}(peaksDataLimitsInd);
-    if length(wavelengths) == 1
+    if length(wavelengths) == 1 && wavelengths >= 190
         peaksList = peaksDataLimits{1,1};
+        peaksList(:,6) = wavelengths;
+    elseif length(wavelengths) == 1 && wavelengths < 190
+        peaksList = peaksData{currExp, 5}{:};
         peaksList(:,6) = wavelengths;
     else
     

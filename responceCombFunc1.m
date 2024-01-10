@@ -124,10 +124,10 @@ function resp = responceCombFunc1(peaksData, voidTime, skew, currExp, wavelength
     % 0 and 1    
     methodTime = (methodTime-minmethodTime)/(maxmethodTime-minmethodTime);
     rsCrit = (rsCrit-minrsCrit)/(maxrsCrit-minrsCrit);
-%     % Set any value of rscrit that is less than 0 equal to 0.
-%     if rsCrit < 0
-%         rsCrit = 0;
-%     end
+    % Set any value of rscrit that is less than 0 equal to 0.
+    if rsCrit < 0
+        rsCrit = 0;
+    end
     peakNumb = (peakNumb - minpeakNumb)/(maxpeakNumb-minpeakNumb);
  
     % Combine into a single response using weightings. Here the number of
