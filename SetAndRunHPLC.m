@@ -2,8 +2,8 @@ function SetAndRunHPLC
     import java.awt.Robot;
     import java.awt.event.*;
     
-    %clipboard('copy', 'macro "C:\Users\eng_adm\Desktop\Tom\Macro code\Tomv4\FullRun.MAC"');
-    clipboard('copy', 'macro "C:\Users\chmmegadmin\OneDrive - University of Leeds\Research Desktop\Tomv4\FullRun.MAC"');
+    clipboard('copy', 'macro "C:\Users\eng_adm\Desktop\Tom\Macro code\Tomv4\FullRun.MAC"');
+    
     
     mouse = Robot;
     mouse.mouseMove(1200,1000);
