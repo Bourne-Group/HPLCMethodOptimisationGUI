@@ -791,10 +791,7 @@ f = zeros(size(x,1),size(Opt.Sample,2));
 for i = 1:size(Opt.Sample,2)
     f(:,i) = Opt.Sample(i).f(x);
 end
-
-% Constraints go here!
 const = [];
-%const = constFunc();
 return
 
 function [Sample_pareto,Sample_xpareto,Sample_nadir] = Find_sample_pareto(Opt,it)
