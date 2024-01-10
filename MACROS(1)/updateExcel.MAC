@@ -1,0 +1,24 @@
+! Macro written by Thomas Dixon
+! This is the post run macro that executes after the HPLC method. It updates the excel document with the name of the file so that it can be read by MATLAB
+and sets the 'sampleRun' cell equal to 1 too tell MATLAB the method has finished.
+
+! Defines variables
+local sampleRun, EXCELFILE$
+
+EXCELFILE$ = "###Excel file name###"
+
+! Set sample run to true to tell MATLAB method has finished.
+sampleRun = 1
+
+! Set up the 'dynamic data exchange'
+Chan = DDEInitiate("EXCEL", EXCELFILE$)
+sleep 5
+
+! Write the contents of the data file variable to the excel file
+DDEPoke Chan, "R5C9", _DataFile$
+sleep 0.1
+! Update the method finished cell
+DDEPoke Chan, "R4C9", VAL$(sampleRun)
+sleep 0.1
+! Terminate the exchange.
+DDETerminate Chan

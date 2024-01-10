@@ -1,0 +1,112 @@
+! Macro written by Thomas Dixon
+! This macro executes a loop that sets method condtions and waits for the system to equlibrate before starting the HPLC method.
+
+! Defines variables
+local RUNSAMP, RUNOPT, EQUALTIME, EXCELFILE$
+
+! Execute the editMeth macro, which reads the excel file and extracts the method condtions.
+sleep 1
+macro "###Macro file location here###"
+EXCELFILE$ = "###Excel File name here###"
+
+!!!Starts pumps and turns actives all equipment if it has not been already
+PrepRun
+print "PrepRun Done"
+sleep 5
+
+! Error function that closes macro if file is not loaded.
+on error CloseDDE
+
+! Creates a 'dynamic data exchange' to read the excel file.
+Chan = DDEInitiate("EXCEL", EXCELFILE$)
+! Reads a cell that determines if a method is ready to be run. If the cell contains a 1 then the loop below begins. If not then the instriment shuts down.
+DDERequest Chan, "R2C9", RUNOPT
+! Terminates the 'dynamic data exchange'.
+DDETerminate Chan
+sleep 1
+
+!!! Checks if the optimisation is ready to start. May be 0 still due to some error in reading/writing to excel to good to have this here incase somthing goes wrong.
+If RUNOPT = 1
+  sleep 1		! Sleep to prevent errors
+  loop = 1		! The main loop flag. When 1 the loop iterates continously, when 0 it stops.
+  methstart = 0		! When this is set to one, the method actully starts (after equlibration has occured)
+
+  ! Main loop
+  while loop = 1
+
+    ! Creates a 'dynamic data exchange' to read the excel file.
+    Chan = DDEInitiate("EXCEL", EXCELFILE$)
+    DDERequest Chan, "R1C9", RUNSAMP		! If sample data has been loaded, this equals 1
+    DDERequest Chan, "R2C9", RUNOPT		! If optimisation is stopped, this will be 0
+    DDERequest Chan, "R6C9", EQUALTIME		! Total equilbration time
+    DDETerminate Chan
+    sleep 1
+
+    ! If the method has now been loaded (cells have been modified for the next method)
+    
+    If RUNSAMP = 1
+      !Edit the method using the EditMeth macro
+      EditMeth
+      sleep 5
+
+      ! Sample has now been read so set RUNSAMP = 0.
+      Chan = DDEInitiate("EXCEL", EXCELFILE$)
+      RUNSAMP = 0
+      DDEPoke Chan, "R1C9", VAL$(RUNSAMP)
+      DDETerminate Chan
+      sleep 1
+    
+      ! Inform console that method has been edited.
+      print "Method Edited"
+      methstart = 1 	! Change methstart to true
+      sleep 1
+
+    EndIf
+
+    ! If the method has been initalised then run. However first wait untill the "PRERUN" stage where it is ready to actully run the method.
+    If ((methstart = 1) and (ACQSTATUS$ = "PRERUN")) then
+
+      ! Wait the given ammount of time for method to equlibrate
+      print "Equilibrating"    
+      sleep EQUALTIME
+
+      ! Run the method
+      print "Running method"
+      StartMethod 	! Built in macro function that starts the loaded method
+      sleep 5
+ 
+      loop = 0 		! End the loop
+
+    EndIf
+
+
+    ! If the optimisation has been stopped, then end the loop
+    If RUNOPT = 0
+      loop = 0 		! Looping set to false
+      sleep 1
+    Endif
+
+    ! Loop iterates untill method has finally been loaded or optimisation is finished.
+    sleep 5 ! Sleep to reduce computing power
+    print "Waiting..."
+
+  endwhile
+
+EndIf
+
+
+! If optimiation is finished, shut down hardware
+If RUNOPT = 0
+  print "Optimisation Finished!"
+  sleep 5
+  StandBy Wait ! Turns off pumps and sets hardware to standby
+  print "Hardware set to standby"
+EndIf
+
+! Function for error handling if excel file does not open.
+Name CloseDDE
+  Local Button
+  DDETerminate Chan
+  Button = Alert ("Stopped on error",3)
+  Return
+EndMacro
