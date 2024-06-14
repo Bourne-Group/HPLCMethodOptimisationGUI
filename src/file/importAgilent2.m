@@ -1,3 +1,6 @@
+%%PFIZER EDIT HERE
+%Reads all the chromatogram data in the given format
+
 function data = importAgilent2(varargin)
 % ------------------------------------------------------------------------
 % Method      : importAgilent

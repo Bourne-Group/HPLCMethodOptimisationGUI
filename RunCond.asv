@@ -175,8 +175,7 @@ function timeOutReached = RunCond(X, experiment, equalTime, timeout)
     %%PFIZER EDIT HERE
     %Starts the commuincation with the instrement
     %This sets up an while loop to wait for the method to finish running.
-    %The macro code that is executed then writes a '1' in a excel doc when the
-    %method has finished to notifiy the loop the method has finished.
+    %The macro code that is executed then writes a '1'
     SetAndRunHPLC
 
     
@@ -186,11 +185,7 @@ function timeOutReached = RunCond(X, experiment, equalTime, timeout)
     sampleRun = sampleRun.Value;
     
     tic
-    
 
-    %I realise this is not the bet way as it could be stuck here for the
-    %max time (determined by timeOutReached) but it was the best i could do
-    %with the bad macro chemsation code :')
     while sampleRun == 0
         %sampleRun = get(sheet12,'Range','I4').value;
         sampleRun = get(sheet12,'Range','I4');

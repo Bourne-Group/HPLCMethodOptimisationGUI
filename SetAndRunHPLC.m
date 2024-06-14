@@ -1,4 +1,8 @@
 function SetAndRunHPLC
+    %%PFIZER EDIT HERE
+    %This is probably not needed but is how i communicated with the
+    %Chemstatio software
+
     import java.awt.Robot;
     import java.awt.event.*;
     
