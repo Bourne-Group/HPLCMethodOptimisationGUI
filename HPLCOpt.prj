@@ -1,0 +1,151 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Thoma\OneDrive - University of Leeds\Research PhD project infomation\Data\Code\Github\HPLCMethodOptimisationGUI\HPLCOpt.prj" location="C:\Users\Thoma\OneDrive - University of Leeds\Research PhD project infomation\Data\Code\Github\HPLCMethodOptimisationGUI" name="HPLCOpt" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>HPLCOpt</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.4</param.version>
+    <param.authnamewatermark>Thomas Dixon</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\HPLCOpt\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\HPLCOpt\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\HPLCOpt\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\HPLCOpt\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\HPLCOpt</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\HPLCapp.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\BayesianOpt.m</file>
+      <file>${PROJECT_ROOT}\ConfigVars.mlapp</file>
+      <file>${PROJECT_ROOT}\extractMaxWavelenInten.m</file>
+      <file>${PROJECT_ROOT}\log4m.m</file>
+      <file>${PROJECT_ROOT}\LVBayesian.m</file>
+      <file>${PROJECT_ROOT}\natsort.m</file>
+      <file>${PROJECT_ROOT}\natsortfiles.m</file>
+      <file>${PROJECT_ROOT}\numbOfArrangements.m</file>
+      <file>${PROJECT_ROOT}\optionsBayesOpt.m</file>
+      <file>${PROJECT_ROOT}\optionsLVBayesian.m</file>
+      <file>${PROJECT_ROOT}\optionsSnob.m</file>
+      <file>${PROJECT_ROOT}\print_table.m</file>
+      <file>${PROJECT_ROOT}\readMethodTXTFile.mlx</file>
+      <file>${PROJECT_ROOT}\responceCombFunc1.m</file>
+      <file>${PROJECT_ROOT}\responceMaxTime.m</file>
+      <file>${PROJECT_ROOT}\responceNumbPeaks.m</file>
+      <file>${PROJECT_ROOT}\responceRscrit.m</file>
+      <file>${PROJECT_ROOT}\RunCond.m</file>
+      <file>${PROJECT_ROOT}\SetAndRunHPLC.m</file>
+      <file>${PROJECT_ROOT}\TSEMO_log.txt</file>
+      <file>${PROJECT_ROOT}\TSEMO_options.m</file>
+      <file>${PROJECT_ROOT}\TSEMO_V4Cond.m</file>
+      <file>${PROJECT_ROOT}\TSEMOPareto.m</file>
+      <file>${PROJECT_ROOT}\Variables.mat</file>
+      <file>${PROJECT_ROOT}\WeightRespcmtmdHPLC018.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\HPLCOpt\for_testing" name="readme.txt" optional="true">C:\Users\Thoma\OneDrive - University of Leeds\Research PhD project infomation\Data\Code\Github\HPLCMethodOptimisationGUI\HPLCOpt\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\HPLCOpt\for_testing" name="HPLCOpt.exe" optional="false">C:\Users\Thoma\OneDrive - University of Leeds\Research PhD project infomation\Data\Code\Github\HPLCMethodOptimisationGUI\HPLCOpt\for_testing\HPLCOpt.exe</file>
+      <file location="${PROJECT_ROOT}\HPLCOpt\for_testing" name="splash.png" optional="false">C:\Users\Thoma\OneDrive - University of Leeds\Research PhD project infomation\Data\Code\Github\HPLCMethodOptimisationGUI\HPLCOpt\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
